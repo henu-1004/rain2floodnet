@@ -25,6 +25,18 @@
 
 ---
 
+## 🖼️ Example Result
+
+<p align="center">
+  <img src="./images/ex.png" width="750">
+</p>
+
+<p align="center">
+  <em>Example of target flood footprint map and generated prediction result</em>
+</p>
+
+---
+
 ## 🏗️ Model Architecture
 
 ### ✅ Baseline: Conditional GAN (cGAN)
@@ -48,9 +60,25 @@ Discriminator는 다음 정보를 함께 입력받아 이미지의 진위를 판
 - WGAN-GP Loss
 - L1 Reconstruction Loss
 
+<p align="center">
+  <img src="./images/cGan.png" width="750">
+</p>
+
+<p align="center">
+  <em>Baseline cGAN model architecture</em>
+</p>
+
 ---
 
 ### ✅ Proposed Model: Rain2FloodNet
+
+<p align="center">
+  <img src="./images/Rain2FloodNet.png" width="750">
+</p>
+
+<p align="center">
+  <em>Proposed Rain2FloodNet architecture</em>
+</p>
 
 **Rain2FloodNet**은 Pix2Pix 기반 U-Net 구조를 확장한 조건부 이미지 생성 모델입니다.
 
@@ -258,46 +286,10 @@ White Test는 특정 강수 조건에서 침수가 발생하지 않는 상황을
 
 ---
 
-## 📂 Project Structure
-
-```bash
-Rain2FloodNet/
-│
-├── model/
-│   ├── generator.py
-│   ├── discriminator.py
-│   └── condition_regressor.py
-│
-├── dataset/
-│   ├── rainfall_csv/
-│   ├── flood_images/
-│   └── map_images/
-│
-├── train.py
-├── evaluation.py
-├── visualization.py
-├── metrics.py
-├── README.md
-└── requirements.txt
-```
-
-> 실제 공개 레포지토리에서는 데이터 보안 문제로 `dataset/` 내부 원본 데이터는 포함하지 않습니다.
-
----
-
 ## 🚨 Data & Weight Policy
 
 본 프로젝트는 실제 침수흔적도 데이터를 활용한 연구 프로젝트입니다.  
-따라서 데이터 보안 및 원본 자료 보호를 위해 다음 항목은 공개하지 않습니다.
-
-- Raw Dataset
-- Flood Footprint Images
-- Rainfall CSV Data
-- Trained Weights (`.pth`, `.pt`, `.ckpt`)
-- Checkpoint Files
-- Original QGIS / GIS Source Files
-
-공개 레포지토리에는 모델 구조, 학습 파이프라인, 평가 코드, 실험 설계 내용을 중심으로 정리했습니다.
+따라서 데이터 보안 및 원본 자료 보호를 위해 원본 데이터는 포함하지 않습니다.
 
 ---
 
@@ -314,17 +306,6 @@ Rain2FloodNet/
 - Flood Footprint Map
 - Image-to-Image Translation
 - Deep Learning
-
----
-
-## 👨‍💻 Author
-
-### Hyeon-Woo Seo
-
-- Backend / AI Research
-- Deep Learning 기반 침수 예측 연구
-- PyTorch 기반 생성 모델 구현
-- Conditional GAN Architecture Research
 
 ---
 
