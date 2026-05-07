@@ -2,6 +2,7 @@
 
 > **Pix2Pix + FiLM 기반 조건부 생성 모델을 활용한  
 > 실시간 도시 침수흔적도 예측 프로젝트**
+- [논문 PDF 보기](./docs/Rain2FloodNet_paper.pdf)
 
 ---
 
@@ -22,8 +23,6 @@
 - Condition Regressor
 - WGAN-GP Loss
 - White Test 기반 일반화 평가
-
-- [논문 PDF 보기](./docs/Rain2FloodNet_paper.pdf)
 
 ---
 
