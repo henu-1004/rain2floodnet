@@ -28,7 +28,7 @@
 ## 🖼️ Example Result
 
 <p align="center">
-  <img src="./images/ex.png" width="750">
+  <img src="./images/ex.png" width="500">
 </p>
 
 <p align="center">
@@ -61,7 +61,7 @@ Discriminator는 다음 정보를 함께 입력받아 이미지의 진위를 판
 - L1 Reconstruction Loss
 
 <p align="center">
-  <img src="./images/cGan.png" width="750">
+  <img src="./images/cGan.png" width="500">
 </p>
 
 <p align="center">
@@ -73,7 +73,7 @@ Discriminator는 다음 정보를 함께 입력받아 이미지의 진위를 판
 ### ✅ Proposed Model: Rain2FloodNet
 
 <p align="center">
-  <img src="./images/Rain2FloodNet.png" width="750">
+  <img src="./images/Rain2FloodNet.png" width="500">
 </p>
 
 <p align="center">
