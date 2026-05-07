@@ -1,7 +1,7 @@
 
 === Epoch 10 ===
-[Case1] PSNR=31.30, SSIM=0.9889, IoU_bin=0.0042, IoU_color=0.0000, mIoU_all=0.1425, mIoU_fg=0.0000
-  - Background(white): 0.9978
+[Case1] PSNR=31.40, SSIM=0.9944, IoU_bin=0.0000, IoU_color=0.0000, mIoU_all=0.1426, mIoU_fg=0.0000
+  - Background(white): 0.9980
   - Grade1(orange): 0.0000
   - Grade2(green): 0.0000
   - Grade3(darkgreen): 0.0000
@@ -9,7 +9,7 @@
   - Grade5(purple): 0.0000
   - Grade6(red): 0.0000
 
-[Case3] PSNR=28.06, SSIM=0.9817, IoU_bin=0.0024, IoU_color=0.0000, mIoU_all=0.1410, mIoU_fg=0.0000
+[Case3] PSNR=28.06, SSIM=0.9817, IoU_bin=0.0000, IoU_color=0.0000, mIoU_all=0.1410, mIoU_fg=0.0000
   - Background(white): 0.9870
   - Grade1(orange): 0.0000
   - Grade2(green): 0.0000
@@ -18,8 +18,8 @@
   - Grade5(purple): 0.0000
   - Grade6(red): 0.0000
 
-[Case4] PSNR=18.25, SSIM=0.9152, IoU_bin=0.0222, IoU_color=0.0000, mIoU_all=0.1403, mIoU_fg=0.0000
-  - Background(white): 0.9822
+[Case4] PSNR=18.61, SSIM=0.9414, IoU_bin=0.0000, IoU_color=0.0000, mIoU_all=0.1405, mIoU_fg=0.0000
+  - Background(white): 0.9833
   - Grade1(orange): 0.0000
   - Grade2(green): 0.0000
   - Grade3(darkgreen): 0.0000
@@ -27,8 +27,8 @@
   - Grade5(purple): 0.0000
   - Grade6(red): 0.0000
 
-[Case2] PSNR=22.88, SSIM=0.9734, IoU_bin=0.0225, IoU_color=0.0000, mIoU_all=0.1413, mIoU_fg=0.0000
-  - Background(white): 0.9891
+[Case2] PSNR=23.50, SSIM=0.9832, IoU_bin=0.0000, IoU_color=0.0000, mIoU_all=0.1414, mIoU_fg=0.0000
+  - Background(white): 0.9896
   - Grade1(orange): 0.0000
   - Grade2(green): 0.0000
   - Grade3(darkgreen): 0.0000
@@ -36,8 +36,8 @@
   - Grade5(purple): 0.0000
   - Grade6(red): 0.0000
 
-[Overall] PSNR=24.37, SSIM=0.9677, mIoU_all=0.1413, mIoU_fg=0.0000
-  - Background(white): 0.9891
+[Overall] PSNR=24.76, SSIM=0.9779, mIoU_all=0.1414, mIoU_fg=0.0000
+  - Background(white): 0.9895
   - Grade1(orange): 0.0000
   - Grade2(green): 0.0000
   - Grade3(darkgreen): 0.0000
@@ -45,8 +45,8 @@
   - Grade5(purple): 0.0000
   - Grade6(red): 0.0000
 
-[Orig] PSNR=29.07, SSIM=0.9785, IoU_bin=0.0085, IoU_color=0.0000, mIoU_all=0.1421, mIoU_fg=0.0000
-  - Background(white): 0.9946
+[Orig] PSNR=29.42, SSIM=0.9857, IoU_bin=0.0000, IoU_color=0.0000, mIoU_all=0.1421, mIoU_fg=0.0000
+  - Background(white): 0.9949
   - Grade1(orange): 0.0000
   - Grade2(green): 0.0000
   - Grade3(darkgreen): 0.0000
@@ -54,8 +54,8 @@
   - Grade5(purple): 0.0000
   - Grade6(red): 0.0000
 
-[Overall] PSNR=29.07, SSIM=0.9785, mIoU_all=0.1421, mIoU_fg=0.0000
-  - Background(white): 0.9946
+[WhiteTrain] PSNR=111.17, SSIM=1.0000, IoU_bin=0.0000, IoU_color=0.0000, mIoU_all=0.1429, mIoU_fg=0.0000
+  - Background(white): 1.0000
   - Grade1(orange): 0.0000
   - Grade2(green): 0.0000
   - Grade3(darkgreen): 0.0000
@@ -63,8 +63,8 @@
   - Grade5(purple): 0.0000
   - Grade6(red): 0.0000
 
-[WhiteTest] PSNR=49.06, SSIM=0.9905, IoU_bin=0.0000, IoU_color=0.0000, mIoU_all=0.1428, mIoU_fg=0.0000
-  - Background(white): 0.9996
+[Overall] PSNR=59.41, SSIM=0.9909, mIoU_all=0.1424, mIoU_fg=0.0000
+  - Background(white): 0.9968
   - Grade1(orange): 0.0000
   - Grade2(green): 0.0000
   - Grade3(darkgreen): 0.0000
@@ -72,8 +72,17 @@
   - Grade5(purple): 0.0000
   - Grade6(red): 0.0000
 
-[Overall] PSNR=49.06, SSIM=0.9905, mIoU_all=0.1428, mIoU_fg=0.0000
-  - Background(white): 0.9996
+[WhiteTest] PSNR=123.92, SSIM=1.0000, IoU_bin=0.0000, IoU_color=0.0000, mIoU_all=0.1429, mIoU_fg=0.0000
+  - Background(white): 1.0000
+  - Grade1(orange): 0.0000
+  - Grade2(green): 0.0000
+  - Grade3(darkgreen): 0.0000
+  - Grade4(skyblue): 0.0000
+  - Grade5(purple): 0.0000
+  - Grade6(red): 0.0000
+
+[Overall] PSNR=123.92, SSIM=1.0000, mIoU_all=0.1429, mIoU_fg=0.0000
+  - Background(white): 1.0000
   - Grade1(orange): 0.0000
   - Grade2(green): 0.0000
   - Grade3(darkgreen): 0.0000
@@ -83,8 +92,8 @@
 
 
 === Epoch 20 ===
-[Case1] PSNR=31.08, SSIM=0.9936, IoU_bin=0.0092, IoU_color=0.0000, mIoU_all=0.1425, mIoU_fg=0.0000
-  - Background(white): 0.9976
+[Case1] PSNR=31.38, SSIM=0.9944, IoU_bin=0.0000, IoU_color=0.0000, mIoU_all=0.1426, mIoU_fg=0.0000
+  - Background(white): 0.9980
   - Grade1(orange): 0.0000
   - Grade2(green): 0.0000
   - Grade3(darkgreen): 0.0000
@@ -101,8 +110,8 @@
   - Grade5(purple): 0.0000
   - Grade6(red): 0.0000
 
-[Case4] PSNR=13.52, SSIM=0.9166, IoU_bin=0.1609, IoU_color=0.0000, mIoU_all=0.1379, mIoU_fg=0.0000
-  - Background(white): 0.9653
+[Case4] PSNR=18.33, SSIM=0.9380, IoU_bin=0.0159, IoU_color=0.0000, mIoU_all=0.1404, mIoU_fg=0.0000
+  - Background(white): 0.9830
   - Grade1(orange): 0.0000
   - Grade2(green): 0.0000
   - Grade3(darkgreen): 0.0000
@@ -110,17 +119,8 @@
   - Grade5(purple): 0.0000
   - Grade6(red): 0.0000
 
-[Case2] PSNR=17.84, SSIM=0.9737, IoU_bin=0.0396, IoU_color=0.0001, mIoU_all=0.1404, mIoU_fg=0.0000
-  - Background(white): 0.9829
-  - Grade1(orange): 0.0001
-  - Grade2(green): 0.0000
-  - Grade3(darkgreen): 0.0000
-  - Grade4(skyblue): 0.0000
-  - Grade5(purple): 0.0000
-  - Grade6(red): 0.0000
-
-[Overall] PSNR=21.03, SSIM=0.9689, mIoU_all=0.1404, mIoU_fg=0.0000
-  - Background(white): 0.9831
+[Case2] PSNR=23.49, SSIM=0.9832, IoU_bin=0.0049, IoU_color=0.0000, mIoU_all=0.1414, mIoU_fg=0.0000
+  - Background(white): 0.9896
   - Grade1(orange): 0.0000
   - Grade2(green): 0.0000
   - Grade3(darkgreen): 0.0000
@@ -128,26 +128,8 @@
   - Grade5(purple): 0.0000
   - Grade6(red): 0.0000
 
-[Orig] PSNR=27.40, SSIM=0.9794, IoU_bin=0.0350, IoU_color=0.0006, mIoU_all=0.1415, mIoU_fg=0.0001
-  - Background(white): 0.9897
-  - Grade1(orange): 0.0007
-  - Grade2(green): 0.0000
-  - Grade3(darkgreen): 0.0000
-  - Grade4(skyblue): 0.0000
-  - Grade5(purple): 0.0000
-  - Grade6(red): 0.0000
-
-[Overall] PSNR=27.40, SSIM=0.9794, mIoU_all=0.1415, mIoU_fg=0.0001
-  - Background(white): 0.9897
-  - Grade1(orange): 0.0007
-  - Grade2(green): 0.0000
-  - Grade3(darkgreen): 0.0000
-  - Grade4(skyblue): 0.0000
-  - Grade5(purple): 0.0000
-  - Grade6(red): 0.0000
-
-[WhiteTest] PSNR=52.57, SSIM=0.9935, IoU_bin=0.0000, IoU_color=0.0000, mIoU_all=0.1421, mIoU_fg=0.0000
-  - Background(white): 0.9949
+[Overall] PSNR=24.71, SSIM=0.9773, mIoU_all=0.1413, mIoU_fg=0.0000
+  - Background(white): 0.9894
   - Grade1(orange): 0.0000
   - Grade2(green): 0.0000
   - Grade3(darkgreen): 0.0000
@@ -155,8 +137,44 @@
   - Grade5(purple): 0.0000
   - Grade6(red): 0.0000
 
-[Overall] PSNR=52.57, SSIM=0.9935, mIoU_all=0.1421, mIoU_fg=0.0000
-  - Background(white): 0.9949
+[Orig] PSNR=28.74, SSIM=0.9808, IoU_bin=0.0030, IoU_color=0.0000, mIoU_all=0.1420, mIoU_fg=0.0000
+  - Background(white): 0.9941
+  - Grade1(orange): 0.0000
+  - Grade2(green): 0.0000
+  - Grade3(darkgreen): 0.0000
+  - Grade4(skyblue): 0.0000
+  - Grade5(purple): 0.0000
+  - Grade6(red): 0.0000
+
+[WhiteTrain] PSNR=73.05, SSIM=1.0000, IoU_bin=0.0000, IoU_color=0.0000, mIoU_all=0.1429, mIoU_fg=0.0000
+  - Background(white): 1.0000
+  - Grade1(orange): 0.0000
+  - Grade2(green): 0.0000
+  - Grade3(darkgreen): 0.0000
+  - Grade4(skyblue): 0.0000
+  - Grade5(purple): 0.0000
+  - Grade6(red): 0.0000
+
+[Overall] PSNR=44.99, SSIM=0.9878, mIoU_all=0.1423, mIoU_fg=0.0000
+  - Background(white): 0.9962
+  - Grade1(orange): 0.0000
+  - Grade2(green): 0.0000
+  - Grade3(darkgreen): 0.0000
+  - Grade4(skyblue): 0.0000
+  - Grade5(purple): 0.0000
+  - Grade6(red): 0.0000
+
+[WhiteTest] PSNR=64.52, SSIM=0.9993, IoU_bin=0.0000, IoU_color=0.0000, mIoU_all=0.1428, mIoU_fg=0.0000
+  - Background(white): 0.9999
+  - Grade1(orange): 0.0000
+  - Grade2(green): 0.0000
+  - Grade3(darkgreen): 0.0000
+  - Grade4(skyblue): 0.0000
+  - Grade5(purple): 0.0000
+  - Grade6(red): 0.0000
+
+[Overall] PSNR=64.52, SSIM=0.9993, mIoU_all=0.1428, mIoU_fg=0.0000
+  - Background(white): 0.9999
   - Grade1(orange): 0.0000
   - Grade2(green): 0.0000
   - Grade3(darkgreen): 0.0000
@@ -166,8 +184,8 @@
 
 
 === Epoch 30 ===
-[Case1] PSNR=25.42, SSIM=0.9780, IoU_bin=0.0270, IoU_color=0.0000, mIoU_all=0.1415, mIoU_fg=0.0000
-  - Background(white): 0.9904
+[Case1] PSNR=31.37, SSIM=0.9927, IoU_bin=0.0143, IoU_color=0.0000, mIoU_all=0.1426, mIoU_fg=0.0000
+  - Background(white): 0.9979
   - Grade1(orange): 0.0000
   - Grade2(green): 0.0000
   - Grade3(darkgreen): 0.0000
@@ -175,8 +193,8 @@
   - Grade5(purple): 0.0000
   - Grade6(red): 0.0000
 
-[Case3] PSNR=22.75, SSIM=0.9529, IoU_bin=0.0573, IoU_color=0.0000, mIoU_all=0.1391, mIoU_fg=0.0000
-  - Background(white): 0.9740
+[Case3] PSNR=28.05, SSIM=0.9817, IoU_bin=0.1000, IoU_color=0.0000, mIoU_all=0.1410, mIoU_fg=0.0000
+  - Background(white): 0.9870
   - Grade1(orange): 0.0000
   - Grade2(green): 0.0000
   - Grade3(darkgreen): 0.0000
@@ -184,53 +202,17 @@
   - Grade5(purple): 0.0000
   - Grade6(red): 0.0000
 
-[Case4] PSNR=14.84, SSIM=0.8980, IoU_bin=0.2963, IoU_color=0.0004, mIoU_all=0.1387, mIoU_fg=0.0001
-  - Background(white): 0.9700
-  - Grade1(orange): 0.0000
-  - Grade2(green): 0.0006
-  - Grade3(darkgreen): 0.0000
-  - Grade4(skyblue): 0.0000
-  - Grade5(purple): 0.0000
-  - Grade6(red): 0.0000
-
-[Case2] PSNR=18.72, SSIM=0.9532, IoU_bin=0.1556, IoU_color=0.0071, mIoU_all=0.1412, mIoU_fg=0.0014
-  - Background(white): 0.9799
-  - Grade1(orange): 0.0084
+[Case4] PSNR=17.55, SSIM=0.8969, IoU_bin=0.2633, IoU_color=0.0031, mIoU_all=0.1405, mIoU_fg=0.0012
+  - Background(white): 0.9765
+  - Grade1(orange): 0.0071
   - Grade2(green): 0.0000
   - Grade3(darkgreen): 0.0000
   - Grade4(skyblue): 0.0000
   - Grade5(purple): 0.0000
   - Grade6(red): 0.0000
 
-[Overall] PSNR=19.86, SSIM=0.9481, mIoU_all=0.1405, mIoU_fg=0.0007
-  - Background(white): 0.9790
-  - Grade1(orange): 0.0042
-  - Grade2(green): 0.0001
-  - Grade3(darkgreen): 0.0000
-  - Grade4(skyblue): 0.0000
-  - Grade5(purple): 0.0000
-  - Grade6(red): 0.0000
-
-[Orig] PSNR=22.19, SSIM=0.9594, IoU_bin=0.0978, IoU_color=0.0036, mIoU_all=0.1417, mIoU_fg=0.0013
-  - Background(white): 0.9842
-  - Grade1(orange): 0.0024
-  - Grade2(green): 0.0049
-  - Grade3(darkgreen): 0.0000
-  - Grade4(skyblue): 0.0006
-  - Grade5(purple): 0.0000
-  - Grade6(red): 0.0001
-
-[Overall] PSNR=22.19, SSIM=0.9594, mIoU_all=0.1417, mIoU_fg=0.0013
-  - Background(white): 0.9842
-  - Grade1(orange): 0.0024
-  - Grade2(green): 0.0049
-  - Grade3(darkgreen): 0.0000
-  - Grade4(skyblue): 0.0006
-  - Grade5(purple): 0.0000
-  - Grade6(red): 0.0001
-
-[WhiteTest] PSNR=24.31, SSIM=0.9612, IoU_bin=0.0000, IoU_color=0.0000, mIoU_all=0.1407, mIoU_fg=0.0000
-  - Background(white): 0.9847
+[Case2] PSNR=23.49, SSIM=0.9821, IoU_bin=0.0138, IoU_color=0.0000, mIoU_all=0.1414, mIoU_fg=0.0000
+  - Background(white): 0.9895
   - Grade1(orange): 0.0000
   - Grade2(green): 0.0000
   - Grade3(darkgreen): 0.0000
@@ -238,8 +220,53 @@
   - Grade5(purple): 0.0000
   - Grade6(red): 0.0000
 
-[Overall] PSNR=24.31, SSIM=0.9612, mIoU_all=0.1407, mIoU_fg=0.0000
-  - Background(white): 0.9847
+[Overall] PSNR=24.57, SSIM=0.9696, mIoU_all=0.1414, mIoU_fg=0.0002
+  - Background(white): 0.9883
+  - Grade1(orange): 0.0012
+  - Grade2(green): 0.0000
+  - Grade3(darkgreen): 0.0000
+  - Grade4(skyblue): 0.0000
+  - Grade5(purple): 0.0000
+  - Grade6(red): 0.0000
+
+[WhiteTrain] PSNR=64.58, SSIM=1.0000, IoU_bin=0.0000, IoU_color=0.0000, mIoU_all=0.1429, mIoU_fg=0.0000
+  - Background(white): 1.0000
+  - Grade1(orange): 0.0000
+  - Grade2(green): 0.0000
+  - Grade3(darkgreen): 0.0000
+  - Grade4(skyblue): 0.0000
+  - Grade5(purple): 0.0000
+  - Grade6(red): 0.0000
+
+[Orig] PSNR=28.01, SSIM=0.9714, IoU_bin=0.0654, IoU_color=0.0006, mIoU_all=0.1421, mIoU_fg=0.0002
+  - Background(white): 0.9932
+  - Grade1(orange): 0.0009
+  - Grade2(green): 0.0004
+  - Grade3(darkgreen): 0.0000
+  - Grade4(skyblue): 0.0002
+  - Grade5(purple): 0.0000
+  - Grade6(red): 0.0000
+
+[Overall] PSNR=41.43, SSIM=0.9819, mIoU_all=0.1424, mIoU_fg=0.0002
+  - Background(white): 0.9957
+  - Grade1(orange): 0.0006
+  - Grade2(green): 0.0003
+  - Grade3(darkgreen): 0.0000
+  - Grade4(skyblue): 0.0001
+  - Grade5(purple): 0.0000
+  - Grade6(red): 0.0000
+
+[WhiteTest] PSNR=50.92, SSIM=0.9874, IoU_bin=0.0000, IoU_color=0.0000, mIoU_all=0.1426, mIoU_fg=0.0000
+  - Background(white): 0.9983
+  - Grade1(orange): 0.0000
+  - Grade2(green): 0.0000
+  - Grade3(darkgreen): 0.0000
+  - Grade4(skyblue): 0.0000
+  - Grade5(purple): 0.0000
+  - Grade6(red): 0.0000
+
+[Overall] PSNR=50.92, SSIM=0.9874, mIoU_all=0.1426, mIoU_fg=0.0000
+  - Background(white): 0.9983
   - Grade1(orange): 0.0000
   - Grade2(green): 0.0000
   - Grade3(darkgreen): 0.0000
@@ -249,7 +276,191 @@
 
 
 === Epoch 40 ===
-[Case1] PSNR=31.17, SSIM=0.9912, IoU_bin=0.0077, IoU_color=0.0000, mIoU_all=0.1425, mIoU_fg=0.0000
+[Case1] PSNR=22.83, SSIM=0.9589, IoU_bin=0.0768, IoU_color=0.0000, mIoU_all=0.1411, mIoU_fg=0.0000
+  - Background(white): 0.9879
+  - Grade1(orange): 0.0000
+  - Grade2(green): 0.0000
+  - Grade3(darkgreen): 0.0000
+  - Grade4(skyblue): 0.0000
+  - Grade5(purple): 0.0000
+  - Grade6(red): 0.0000
+
+[Case3] PSNR=28.06, SSIM=0.9817, IoU_bin=0.0000, IoU_color=0.0000, mIoU_all=0.1410, mIoU_fg=0.0000
+  - Background(white): 0.9870
+  - Grade1(orange): 0.0000
+  - Grade2(green): 0.0000
+  - Grade3(darkgreen): 0.0000
+  - Grade4(skyblue): 0.0000
+  - Grade5(purple): 0.0000
+  - Grade6(red): 0.0000
+
+[Case4] PSNR=13.55, SSIM=0.8628, IoU_bin=0.2457, IoU_color=0.0009, mIoU_all=0.1374, mIoU_fg=0.0002
+  - Background(white): 0.9605
+  - Grade1(orange): 0.0000
+  - Grade2(green): 0.0014
+  - Grade3(darkgreen): 0.0000
+  - Grade4(skyblue): 0.0000
+  - Grade5(purple): 0.0000
+  - Grade6(red): 0.0000
+
+[Case2] PSNR=16.66, SSIM=0.9403, IoU_bin=0.1406, IoU_color=0.0010, mIoU_all=0.1388, mIoU_fg=0.0002
+  - Background(white): 0.9706
+  - Grade1(orange): 0.0013
+  - Grade2(green): 0.0000
+  - Grade3(darkgreen): 0.0000
+  - Grade4(skyblue): 0.0000
+  - Grade5(purple): 0.0000
+  - Grade6(red): 0.0000
+
+[Overall] PSNR=19.07, SSIM=0.9374, mIoU_all=0.1393, mIoU_fg=0.0001
+  - Background(white): 0.9745
+  - Grade1(orange): 0.0006
+  - Grade2(green): 0.0002
+  - Grade3(darkgreen): 0.0000
+  - Grade4(skyblue): 0.0000
+  - Grade5(purple): 0.0000
+  - Grade6(red): 0.0000
+
+[Orig] PSNR=18.33, SSIM=0.9281, IoU_bin=0.1206, IoU_color=0.0037, mIoU_all=0.1405, mIoU_fg=0.0017
+  - Background(white): 0.9730
+  - Grade1(orange): 0.0023
+  - Grade2(green): 0.0075
+  - Grade3(darkgreen): 0.0000
+  - Grade4(skyblue): 0.0003
+  - Grade5(purple): 0.0000
+  - Grade6(red): 0.0002
+
+[WhiteTrain] PSNR=69.12, SSIM=0.9996, IoU_bin=0.0000, IoU_color=0.0000, mIoU_all=0.1429, mIoU_fg=0.0000
+  - Background(white): 1.0000
+  - Grade1(orange): 0.0000
+  - Grade2(green): 0.0000
+  - Grade3(darkgreen): 0.0000
+  - Grade4(skyblue): 0.0000
+  - Grade5(purple): 0.0000
+  - Grade6(red): 0.0000
+
+[Overall] PSNR=36.96, SSIM=0.9543, mIoU_all=0.1413, mIoU_fg=0.0011
+  - Background(white): 0.9829
+  - Grade1(orange): 0.0015
+  - Grade2(green): 0.0047
+  - Grade3(darkgreen): 0.0000
+  - Grade4(skyblue): 0.0002
+  - Grade5(purple): 0.0000
+  - Grade6(red): 0.0001
+
+[WhiteTest] PSNR=35.22, SSIM=0.9478, IoU_bin=0.0000, IoU_color=0.0000, mIoU_all=0.1398, mIoU_fg=0.0000
+  - Background(white): 0.9786
+  - Grade1(orange): 0.0000
+  - Grade2(green): 0.0000
+  - Grade3(darkgreen): 0.0000
+  - Grade4(skyblue): 0.0000
+  - Grade5(purple): 0.0000
+  - Grade6(red): 0.0000
+
+[Overall] PSNR=35.22, SSIM=0.9478, mIoU_all=0.1398, mIoU_fg=0.0000
+  - Background(white): 0.9786
+  - Grade1(orange): 0.0000
+  - Grade2(green): 0.0000
+  - Grade3(darkgreen): 0.0000
+  - Grade4(skyblue): 0.0000
+  - Grade5(purple): 0.0000
+  - Grade6(red): 0.0000
+
+
+=== Epoch 50 ===
+[Case1] PSNR=30.62, SSIM=0.9905, IoU_bin=0.0518, IoU_color=0.0032, mIoU_all=0.1431, mIoU_fg=0.0007
+  - Background(white): 0.9976
+  - Grade1(orange): 0.0000
+  - Grade2(green): 0.0039
+  - Grade3(darkgreen): 0.0000
+  - Grade4(skyblue): 0.0000
+  - Grade5(purple): 0.0000
+  - Grade6(red): 0.0000
+
+[Case3] PSNR=28.06, SSIM=0.9817, IoU_bin=0.0000, IoU_color=0.0000, mIoU_all=0.1410, mIoU_fg=0.0000
+  - Background(white): 0.9870
+  - Grade1(orange): 0.0000
+  - Grade2(green): 0.0000
+  - Grade3(darkgreen): 0.0000
+  - Grade4(skyblue): 0.0000
+  - Grade5(purple): 0.0000
+  - Grade6(red): 0.0000
+
+[Case4] PSNR=15.80, SSIM=0.8831, IoU_bin=0.2354, IoU_color=0.0074, mIoU_all=0.1417, mIoU_fg=0.0032
+  - Background(white): 0.9723
+  - Grade1(orange): 0.0000
+  - Grade2(green): 0.0193
+  - Grade3(darkgreen): 0.0000
+  - Grade4(skyblue): 0.0000
+  - Grade5(purple): 0.0000
+  - Grade6(red): 0.0000
+
+[Case2] PSNR=23.06, SSIM=0.9774, IoU_bin=0.0864, IoU_color=0.0000, mIoU_all=0.1412, mIoU_fg=0.0000
+  - Background(white): 0.9884
+  - Grade1(orange): 0.0000
+  - Grade2(green): 0.0000
+  - Grade3(darkgreen): 0.0000
+  - Grade4(skyblue): 0.0000
+  - Grade5(purple): 0.0000
+  - Grade6(red): 0.0000
+
+[Overall] PSNR=23.94, SSIM=0.9646, mIoU_all=0.1416, mIoU_fg=0.0006
+  - Background(white): 0.9870
+  - Grade1(orange): 0.0000
+  - Grade2(green): 0.0039
+  - Grade3(darkgreen): 0.0000
+  - Grade4(skyblue): 0.0000
+  - Grade5(purple): 0.0000
+  - Grade6(red): 0.0000
+
+[Orig] PSNR=25.40, SSIM=0.9674, IoU_bin=0.1115, IoU_color=0.0058, mIoU_all=0.1436, mIoU_fg=0.0024
+  - Background(white): 0.9908
+  - Grade1(orange): 0.0060
+  - Grade2(green): 0.0079
+  - Grade3(darkgreen): 0.0000
+  - Grade4(skyblue): 0.0001
+  - Grade5(purple): 0.0000
+  - Grade6(red): 0.0003
+
+[WhiteTrain] PSNR=86.11, SSIM=1.0000, IoU_bin=0.0000, IoU_color=0.0000, mIoU_all=0.1429, mIoU_fg=0.0000
+  - Background(white): 1.0000
+  - Grade1(orange): 0.0000
+  - Grade2(green): 0.0000
+  - Grade3(darkgreen): 0.0000
+  - Grade4(skyblue): 0.0000
+  - Grade5(purple): 0.0000
+  - Grade6(red): 0.0000
+
+[Overall] PSNR=47.67, SSIM=0.9794, mIoU_all=0.1433, mIoU_fg=0.0015
+  - Background(white): 0.9942
+  - Grade1(orange): 0.0038
+  - Grade2(green): 0.0050
+  - Grade3(darkgreen): 0.0000
+  - Grade4(skyblue): 0.0000
+  - Grade5(purple): 0.0000
+  - Grade6(red): 0.0002
+
+[WhiteTest] PSNR=43.97, SSIM=0.9819, IoU_bin=0.0000, IoU_color=0.0000, mIoU_all=0.1423, mIoU_fg=0.0000
+  - Background(white): 0.9959
+  - Grade1(orange): 0.0000
+  - Grade2(green): 0.0000
+  - Grade3(darkgreen): 0.0000
+  - Grade4(skyblue): 0.0000
+  - Grade5(purple): 0.0000
+  - Grade6(red): 0.0000
+
+[Overall] PSNR=43.97, SSIM=0.9819, mIoU_all=0.1423, mIoU_fg=0.0000
+  - Background(white): 0.9959
+  - Grade1(orange): 0.0000
+  - Grade2(green): 0.0000
+  - Grade3(darkgreen): 0.0000
+  - Grade4(skyblue): 0.0000
+  - Grade5(purple): 0.0000
+  - Grade6(red): 0.0000
+
+
+=== Epoch 60 ===
+[Case1] PSNR=31.03, SSIM=0.9900, IoU_bin=0.0276, IoU_color=0.0000, mIoU_all=0.1425, mIoU_fg=0.0000
   - Background(white): 0.9976
   - Grade1(orange): 0.0000
   - Grade2(green): 0.0000
@@ -267,53 +478,44 @@
   - Grade5(purple): 0.0000
   - Grade6(red): 0.0000
 
-[Case4] PSNR=15.09, SSIM=0.8987, IoU_bin=0.2710, IoU_color=0.0030, mIoU_all=0.1395, mIoU_fg=0.0009
-  - Background(white): 0.9708
-  - Grade1(orange): 0.0015
-  - Grade2(green): 0.0041
+[Case4] PSNR=15.77, SSIM=0.8946, IoU_bin=0.3089, IoU_color=0.0063, mIoU_all=0.1435, mIoU_fg=0.0049
+  - Background(white): 0.9749
+  - Grade1(orange): 0.0090
+  - Grade2(green): 0.0045
   - Grade3(darkgreen): 0.0000
   - Grade4(skyblue): 0.0000
   - Grade5(purple): 0.0000
-  - Grade6(red): 0.0000
+  - Grade6(red): 0.0161
 
-[Case2] PSNR=18.72, SSIM=0.9551, IoU_bin=0.0781, IoU_color=0.0011, mIoU_all=0.1408, mIoU_fg=0.0002
-  - Background(white): 0.9840
-  - Grade1(orange): 0.0012
+[Case2] PSNR=23.32, SSIM=0.9771, IoU_bin=0.0680, IoU_color=0.0000, mIoU_all=0.1413, mIoU_fg=0.0000
+  - Background(white): 0.9889
+  - Grade1(orange): 0.0000
   - Grade2(green): 0.0000
   - Grade3(darkgreen): 0.0000
   - Grade4(skyblue): 0.0000
   - Grade5(purple): 0.0000
   - Grade6(red): 0.0000
 
-[Overall] PSNR=21.75, SSIM=0.9561, mIoU_all=0.1409, mIoU_fg=0.0003
-  - Background(white): 0.9846
-  - Grade1(orange): 0.0009
+[Overall] PSNR=24.14, SSIM=0.9663, mIoU_all=0.1418, mIoU_fg=0.0008
+  - Background(white): 0.9877
+  - Grade1(orange): 0.0015
   - Grade2(green): 0.0007
   - Grade3(darkgreen): 0.0000
   - Grade4(skyblue): 0.0000
   - Grade5(purple): 0.0000
-  - Grade6(red): 0.0000
+  - Grade6(red): 0.0027
 
-[Orig] PSNR=26.82, SSIM=0.9693, IoU_bin=0.0661, IoU_color=0.0021, mIoU_all=0.1422, mIoU_fg=0.0008
-  - Background(white): 0.9904
-  - Grade1(orange): 0.0017
-  - Grade2(green): 0.0028
+[Orig] PSNR=25.32, SSIM=0.9696, IoU_bin=0.1437, IoU_color=0.0233, mIoU_all=0.1483, mIoU_fg=0.0076
+  - Background(white): 0.9923
+  - Grade1(orange): 0.0088
+  - Grade2(green): 0.0339
   - Grade3(darkgreen): 0.0000
-  - Grade4(skyblue): 0.0001
+  - Grade4(skyblue): 0.0024
   - Grade5(purple): 0.0000
-  - Grade6(red): 0.0001
+  - Grade6(red): 0.0006
 
-[Overall] PSNR=26.82, SSIM=0.9693, mIoU_all=0.1422, mIoU_fg=0.0008
-  - Background(white): 0.9904
-  - Grade1(orange): 0.0017
-  - Grade2(green): 0.0028
-  - Grade3(darkgreen): 0.0000
-  - Grade4(skyblue): 0.0001
-  - Grade5(purple): 0.0000
-  - Grade6(red): 0.0001
-
-[WhiteTest] PSNR=47.99, SSIM=0.9746, IoU_bin=0.0000, IoU_color=0.0000, mIoU_all=0.1418, mIoU_fg=0.0000
-  - Background(white): 0.9929
+[WhiteTrain] PSNR=76.62, SSIM=0.9999, IoU_bin=0.0000, IoU_color=0.0000, mIoU_all=0.1429, mIoU_fg=0.0000
+  - Background(white): 1.0000
   - Grade1(orange): 0.0000
   - Grade2(green): 0.0000
   - Grade3(darkgreen): 0.0000
@@ -321,8 +523,17 @@
   - Grade5(purple): 0.0000
   - Grade6(red): 0.0000
 
-[Overall] PSNR=47.99, SSIM=0.9746, mIoU_all=0.1418, mIoU_fg=0.0000
-  - Background(white): 0.9929
+[Overall] PSNR=44.14, SSIM=0.9807, mIoU_all=0.1463, mIoU_fg=0.0048
+  - Background(white): 0.9951
+  - Grade1(orange): 0.0056
+  - Grade2(green): 0.0215
+  - Grade3(darkgreen): 0.0000
+  - Grade4(skyblue): 0.0015
+  - Grade5(purple): 0.0000
+  - Grade6(red): 0.0004
+
+[WhiteTest] PSNR=44.52, SSIM=0.9842, IoU_bin=0.0000, IoU_color=0.0000, mIoU_all=0.1424, mIoU_fg=0.0000
+  - Background(white): 0.9968
   - Grade1(orange): 0.0000
   - Grade2(green): 0.0000
   - Grade3(darkgreen): 0.0000
@@ -330,165 +541,8 @@
   - Grade5(purple): 0.0000
   - Grade6(red): 0.0000
 
-
-=== Epoch 50 ===
-[Case1] PSNR=26.57, SSIM=0.9836, IoU_bin=0.0333, IoU_color=0.0000, mIoU_all=0.1421, mIoU_fg=0.0000
-  - Background(white): 0.9950
-  - Grade1(orange): 0.0000
-  - Grade2(green): 0.0000
-  - Grade3(darkgreen): 0.0000
-  - Grade4(skyblue): 0.0000
-  - Grade5(purple): 0.0000
-  - Grade6(red): 0.0000
-
-[Case3] PSNR=14.86, SSIM=0.9592, IoU_bin=0.0986, IoU_color=0.0003, mIoU_all=0.1391, mIoU_fg=0.0005
-  - Background(white): 0.9711
-  - Grade1(orange): 0.0000
-  - Grade2(green): 0.0027
-  - Grade3(darkgreen): 0.0000
-  - Grade4(skyblue): 0.0000
-  - Grade5(purple): 0.0000
-  - Grade6(red): 0.0000
-
-[Case4] PSNR=16.42, SSIM=0.8916, IoU_bin=0.3685, IoU_color=0.0247, mIoU_all=0.1481, mIoU_fg=0.0105
-  - Background(white): 0.9739
-  - Grade1(orange): 0.0065
-  - Grade2(green): 0.0365
-  - Grade3(darkgreen): 0.0000
-  - Grade4(skyblue): 0.0200
-  - Grade5(purple): 0.0000
-  - Grade6(red): 0.0000
-
-[Case2] PSNR=20.80, SSIM=0.9615, IoU_bin=0.1669, IoU_color=0.0036, mIoU_all=0.1415, mIoU_fg=0.0011
-  - Background(white): 0.9839
-  - Grade1(orange): 0.0038
-  - Grade2(green): 0.0029
-  - Grade3(darkgreen): 0.0000
-  - Grade4(skyblue): 0.0000
-  - Grade5(purple): 0.0000
-  - Grade6(red): 0.0000
-
-[Overall] PSNR=20.04, SSIM=0.9531, mIoU_all=0.1423, mIoU_fg=0.0024
-  - Background(white): 0.9819
-  - Grade1(orange): 0.0030
-  - Grade2(green): 0.0080
-  - Grade3(darkgreen): 0.0000
-  - Grade4(skyblue): 0.0033
-  - Grade5(purple): 0.0000
-  - Grade6(red): 0.0000
-
-[Orig] PSNR=25.86, SSIM=0.9727, IoU_bin=0.1728, IoU_color=0.0696, mIoU_all=0.1590, mIoU_fg=0.0201
-  - Background(white): 0.9927
-  - Grade1(orange): 0.0522
-  - Grade2(green): 0.0601
-  - Grade3(darkgreen): 0.0000
-  - Grade4(skyblue): 0.0051
-  - Grade5(purple): 0.0000
-  - Grade6(red): 0.0031
-
-[Overall] PSNR=25.86, SSIM=0.9727, mIoU_all=0.1590, mIoU_fg=0.0201
-  - Background(white): 0.9927
-  - Grade1(orange): 0.0522
-  - Grade2(green): 0.0601
-  - Grade3(darkgreen): 0.0000
-  - Grade4(skyblue): 0.0051
-  - Grade5(purple): 0.0000
-  - Grade6(red): 0.0031
-
-[WhiteTest] PSNR=26.76, SSIM=0.9693, IoU_bin=0.0000, IoU_color=0.0000, mIoU_all=0.1414, mIoU_fg=0.0000
-  - Background(white): 0.9895
-  - Grade1(orange): 0.0000
-  - Grade2(green): 0.0000
-  - Grade3(darkgreen): 0.0000
-  - Grade4(skyblue): 0.0000
-  - Grade5(purple): 0.0000
-  - Grade6(red): 0.0000
-
-[Overall] PSNR=26.76, SSIM=0.9693, mIoU_all=0.1414, mIoU_fg=0.0000
-  - Background(white): 0.9895
-  - Grade1(orange): 0.0000
-  - Grade2(green): 0.0000
-  - Grade3(darkgreen): 0.0000
-  - Grade4(skyblue): 0.0000
-  - Grade5(purple): 0.0000
-  - Grade6(red): 0.0000
-
-
-=== Epoch 60 ===
-[Case1] PSNR=26.59, SSIM=0.9754, IoU_bin=0.0388, IoU_color=0.0000, mIoU_all=0.1423, mIoU_fg=0.0000
-  - Background(white): 0.9962
-  - Grade1(orange): 0.0000
-  - Grade2(green): 0.0000
-  - Grade3(darkgreen): 0.0000
-  - Grade4(skyblue): 0.0000
-  - Grade5(purple): 0.0000
-  - Grade6(red): 0.0000
-
-[Case3] PSNR=16.23, SSIM=0.9647, IoU_bin=0.0427, IoU_color=0.0005, mIoU_all=0.1400, mIoU_fg=0.0001
-  - Background(white): 0.9796
-  - Grade1(orange): 0.0005
-  - Grade2(green): 0.0000
-  - Grade3(darkgreen): 0.0000
-  - Grade4(skyblue): 0.0000
-  - Grade5(purple): 0.0000
-  - Grade6(red): 0.0000
-
-[Case4] PSNR=16.78, SSIM=0.8907, IoU_bin=0.4183, IoU_color=0.0581, mIoU_all=0.1540, mIoU_fg=0.0169
-  - Background(white): 0.9768
-  - Grade1(orange): 0.0211
-  - Grade2(green): 0.0779
-  - Grade3(darkgreen): 0.0000
-  - Grade4(skyblue): 0.0022
-  - Grade5(purple): 0.0000
-  - Grade6(red): 0.0000
-
-[Case2] PSNR=21.33, SSIM=0.9484, IoU_bin=0.1765, IoU_color=0.0035, mIoU_all=0.1418, mIoU_fg=0.0014
-  - Background(white): 0.9842
-  - Grade1(orange): 0.0006
-  - Grade2(green): 0.0061
-  - Grade3(darkgreen): 0.0000
-  - Grade4(skyblue): 0.0000
-  - Grade5(purple): 0.0000
-  - Grade6(red): 0.0016
-
-[Overall] PSNR=20.60, SSIM=0.9460, mIoU_all=0.1436, mIoU_fg=0.0035
-  - Background(white): 0.9842
-  - Grade1(orange): 0.0039
-  - Grade2(green): 0.0160
-  - Grade3(darkgreen): 0.0000
-  - Grade4(skyblue): 0.0004
-  - Grade5(purple): 0.0000
-  - Grade6(red): 0.0008
-
-[Orig] PSNR=27.08, SSIM=0.9757, IoU_bin=0.2311, IoU_color=0.1761, mIoU_all=0.1905, mIoU_fg=0.0565
-  - Background(white): 0.9949
-  - Grade1(orange): 0.1339
-  - Grade2(green): 0.1799
-  - Grade3(darkgreen): 0.0000
-  - Grade4(skyblue): 0.0165
-  - Grade5(purple): 0.0000
-  - Grade6(red): 0.0087
-
-[Overall] PSNR=27.08, SSIM=0.9757, mIoU_all=0.1905, mIoU_fg=0.0565
-  - Background(white): 0.9949
-  - Grade1(orange): 0.1339
-  - Grade2(green): 0.1799
-  - Grade3(darkgreen): 0.0000
-  - Grade4(skyblue): 0.0165
-  - Grade5(purple): 0.0000
-  - Grade6(red): 0.0087
-
-[WhiteTest] PSNR=27.49, SSIM=0.9618, IoU_bin=0.0000, IoU_color=0.0000, mIoU_all=0.1413, mIoU_fg=0.0000
-  - Background(white): 0.9890
-  - Grade1(orange): 0.0000
-  - Grade2(green): 0.0000
-  - Grade3(darkgreen): 0.0000
-  - Grade4(skyblue): 0.0000
-  - Grade5(purple): 0.0000
-  - Grade6(red): 0.0000
-
-[Overall] PSNR=27.49, SSIM=0.9618, mIoU_all=0.1413, mIoU_fg=0.0000
-  - Background(white): 0.9890
+[Overall] PSNR=44.52, SSIM=0.9842, mIoU_all=0.1424, mIoU_fg=0.0000
+  - Background(white): 0.9968
   - Grade1(orange): 0.0000
   - Grade2(green): 0.0000
   - Grade3(darkgreen): 0.0000
@@ -498,7 +552,7 @@
 
 
 === Epoch 70 ===
-[Case1] PSNR=26.93, SSIM=0.9880, IoU_bin=0.0265, IoU_color=0.0000, mIoU_all=0.1425, mIoU_fg=0.0000
+[Case1] PSNR=31.22, SSIM=0.9908, IoU_bin=0.0067, IoU_color=0.0000, mIoU_all=0.1425, mIoU_fg=0.0000
   - Background(white): 0.9976
   - Grade1(orange): 0.0000
   - Grade2(green): 0.0000
@@ -507,8 +561,8 @@
   - Grade5(purple): 0.0000
   - Grade6(red): 0.0000
 
-[Case3] PSNR=17.42, SSIM=0.9762, IoU_bin=0.0359, IoU_color=0.0000, mIoU_all=0.1405, mIoU_fg=0.0000
-  - Background(white): 0.9832
+[Case3] PSNR=28.06, SSIM=0.9817, IoU_bin=0.0000, IoU_color=0.0000, mIoU_all=0.1410, mIoU_fg=0.0000
+  - Background(white): 0.9870
   - Grade1(orange): 0.0000
   - Grade2(green): 0.0000
   - Grade3(darkgreen): 0.0000
@@ -516,53 +570,17 @@
   - Grade5(purple): 0.0000
   - Grade6(red): 0.0000
 
-[Case4] PSNR=17.73, SSIM=0.9096, IoU_bin=0.4212, IoU_color=0.0704, mIoU_all=0.1571, mIoU_fg=0.0198
-  - Background(white): 0.9808
-  - Grade1(orange): 0.0061
-  - Grade2(green): 0.1066
-  - Grade3(darkgreen): 0.0000
-  - Grade4(skyblue): 0.0061
-  - Grade5(purple): 0.0000
-  - Grade6(red): 0.0000
-
-[Case2] PSNR=22.70, SSIM=0.9685, IoU_bin=0.2842, IoU_color=0.0001, mIoU_all=0.1411, mIoU_fg=0.0001
-  - Background(white): 0.9871
+[Case4] PSNR=17.52, SSIM=0.9265, IoU_bin=0.1971, IoU_color=0.0076, mIoU_all=0.1423, mIoU_fg=0.0025
+  - Background(white): 0.9811
   - Grade1(orange): 0.0000
-  - Grade2(green): 0.0008
+  - Grade2(green): 0.0121
   - Grade3(darkgreen): 0.0000
-  - Grade4(skyblue): 0.0000
+  - Grade4(skyblue): 0.0027
   - Grade5(purple): 0.0000
   - Grade6(red): 0.0000
 
-[Overall] PSNR=21.70, SSIM=0.9632, mIoU_all=0.1439, mIoU_fg=0.0034
-  - Background(white): 0.9871
-  - Grade1(orange): 0.0010
-  - Grade2(green): 0.0181
-  - Grade3(darkgreen): 0.0000
-  - Grade4(skyblue): 0.0010
-  - Grade5(purple): 0.0000
-  - Grade6(red): 0.0000
-
-[Orig] PSNR=29.74, SSIM=0.9863, IoU_bin=0.3214, IoU_color=0.2888, mIoU_all=0.2191, mIoU_fg=0.0894
-  - Background(white): 0.9971
-  - Grade1(orange): 0.1967
-  - Grade2(green): 0.2913
-  - Grade3(darkgreen): 0.0000
-  - Grade4(skyblue): 0.0318
-  - Grade5(purple): 0.0000
-  - Grade6(red): 0.0168
-
-[Overall] PSNR=29.74, SSIM=0.9863, mIoU_all=0.2191, mIoU_fg=0.0894
-  - Background(white): 0.9971
-  - Grade1(orange): 0.1967
-  - Grade2(green): 0.2913
-  - Grade3(darkgreen): 0.0000
-  - Grade4(skyblue): 0.0318
-  - Grade5(purple): 0.0000
-  - Grade6(red): 0.0168
-
-[WhiteTest] PSNR=28.58, SSIM=0.9691, IoU_bin=0.0000, IoU_color=0.0000, mIoU_all=0.1414, mIoU_fg=0.0000
-  - Background(white): 0.9898
+[Case2] PSNR=23.47, SSIM=0.9815, IoU_bin=0.0202, IoU_color=0.0000, mIoU_all=0.1414, mIoU_fg=0.0000
+  - Background(white): 0.9895
   - Grade1(orange): 0.0000
   - Grade2(green): 0.0000
   - Grade3(darkgreen): 0.0000
@@ -570,8 +588,53 @@
   - Grade5(purple): 0.0000
   - Grade6(red): 0.0000
 
-[Overall] PSNR=28.58, SSIM=0.9691, mIoU_all=0.1414, mIoU_fg=0.0000
-  - Background(white): 0.9898
+[Overall] PSNR=24.54, SSIM=0.9739, mIoU_all=0.1416, mIoU_fg=0.0004
+  - Background(white): 0.9890
+  - Grade1(orange): 0.0000
+  - Grade2(green): 0.0020
+  - Grade3(darkgreen): 0.0000
+  - Grade4(skyblue): 0.0005
+  - Grade5(purple): 0.0000
+  - Grade6(red): 0.0000
+
+[Orig] PSNR=28.17, SSIM=0.9813, IoU_bin=0.1410, IoU_color=0.0383, mIoU_all=0.1531, mIoU_fg=0.0129
+  - Background(white): 0.9945
+  - Grade1(orange): 0.0227
+  - Grade2(green): 0.0501
+  - Grade3(darkgreen): 0.0000
+  - Grade4(skyblue): 0.0036
+  - Grade5(purple): 0.0000
+  - Grade6(red): 0.0010
+
+[WhiteTrain] PSNR=81.52, SSIM=0.9999, IoU_bin=0.0000, IoU_color=0.0000, mIoU_all=0.1429, mIoU_fg=0.0000
+  - Background(white): 1.0000
+  - Grade1(orange): 0.0000
+  - Grade2(green): 0.0000
+  - Grade3(darkgreen): 0.0000
+  - Grade4(skyblue): 0.0000
+  - Grade5(purple): 0.0000
+  - Grade6(red): 0.0000
+
+[Overall] PSNR=47.74, SSIM=0.9881, mIoU_all=0.1494, mIoU_fg=0.0082
+  - Background(white): 0.9965
+  - Grade1(orange): 0.0144
+  - Grade2(green): 0.0317
+  - Grade3(darkgreen): 0.0000
+  - Grade4(skyblue): 0.0023
+  - Grade5(purple): 0.0000
+  - Grade6(red): 0.0006
+
+[WhiteTest] PSNR=50.60, SSIM=0.9925, IoU_bin=0.0000, IoU_color=0.0000, mIoU_all=0.1426, mIoU_fg=0.0000
+  - Background(white): 0.9985
+  - Grade1(orange): 0.0000
+  - Grade2(green): 0.0000
+  - Grade3(darkgreen): 0.0000
+  - Grade4(skyblue): 0.0000
+  - Grade5(purple): 0.0000
+  - Grade6(red): 0.0000
+
+[Overall] PSNR=50.60, SSIM=0.9925, mIoU_all=0.1426, mIoU_fg=0.0000
+  - Background(white): 0.9985
   - Grade1(orange): 0.0000
   - Grade2(green): 0.0000
   - Grade3(darkgreen): 0.0000
@@ -581,8 +644,8 @@
 
 
 === Epoch 80 ===
-[Case1] PSNR=31.38, SSIM=0.9935, IoU_bin=0.0351, IoU_color=0.0000, mIoU_all=0.1426, mIoU_fg=0.0000
-  - Background(white): 0.9980
+[Case1] PSNR=30.26, SSIM=0.9899, IoU_bin=0.0261, IoU_color=0.0000, mIoU_all=0.1425, mIoU_fg=0.0000
+  - Background(white): 0.9978
   - Grade1(orange): 0.0000
   - Grade2(green): 0.0000
   - Grade3(darkgreen): 0.0000
@@ -590,8 +653,8 @@
   - Grade5(purple): 0.0000
   - Grade6(red): 0.0000
 
-[Case3] PSNR=17.16, SSIM=0.9753, IoU_bin=0.0045, IoU_color=0.0000, mIoU_all=0.1404, mIoU_fg=0.0000
-  - Background(white): 0.9828
+[Case3] PSNR=28.06, SSIM=0.9817, IoU_bin=0.0000, IoU_color=0.0000, mIoU_all=0.1410, mIoU_fg=0.0000
+  - Background(white): 0.9870
   - Grade1(orange): 0.0000
   - Grade2(green): 0.0000
   - Grade3(darkgreen): 0.0000
@@ -599,53 +662,17 @@
   - Grade5(purple): 0.0000
   - Grade6(red): 0.0000
 
-[Case4] PSNR=18.64, SSIM=0.9304, IoU_bin=0.3742, IoU_color=0.0688, mIoU_all=0.1579, mIoU_fg=0.0202
-  - Background(white): 0.9839
-  - Grade1(orange): 0.0131
-  - Grade2(green): 0.1002
-  - Grade3(darkgreen): 0.0000
-  - Grade4(skyblue): 0.0081
-  - Grade5(purple): 0.0000
-  - Grade6(red): 0.0000
-
-[Case2] PSNR=23.51, SSIM=0.9779, IoU_bin=0.2553, IoU_color=0.0027, mIoU_all=0.1467, mIoU_fg=0.0063
-  - Background(white): 0.9891
-  - Grade1(orange): 0.0000
-  - Grade2(green): 0.0380
+[Case4] PSNR=17.04, SSIM=0.9100, IoU_bin=0.3776, IoU_color=0.0153, mIoU_all=0.1435, mIoU_fg=0.0045
+  - Background(white): 0.9777
+  - Grade1(orange): 0.0071
+  - Grade2(green): 0.0199
   - Grade3(darkgreen): 0.0000
   - Grade4(skyblue): 0.0000
   - Grade5(purple): 0.0000
   - Grade6(red): 0.0000
 
-[Overall] PSNR=22.95, SSIM=0.9721, mIoU_all=0.1468, mIoU_fg=0.0065
-  - Background(white): 0.9886
-  - Grade1(orange): 0.0022
-  - Grade2(green): 0.0357
-  - Grade3(darkgreen): 0.0000
-  - Grade4(skyblue): 0.0014
-  - Grade5(purple): 0.0000
-  - Grade6(red): 0.0000
-
-[Orig] PSNR=31.21, SSIM=0.9901, IoU_bin=0.3887, IoU_color=0.3018, mIoU_all=0.2227, mIoU_fg=0.0935
-  - Background(white): 0.9975
-  - Grade1(orange): 0.2442
-  - Grade2(green): 0.2817
-  - Grade3(darkgreen): 0.0000
-  - Grade4(skyblue): 0.0236
-  - Grade5(purple): 0.0000
-  - Grade6(red): 0.0118
-
-[Overall] PSNR=31.21, SSIM=0.9901, mIoU_all=0.2227, mIoU_fg=0.0935
-  - Background(white): 0.9975
-  - Grade1(orange): 0.2442
-  - Grade2(green): 0.2817
-  - Grade3(darkgreen): 0.0000
-  - Grade4(skyblue): 0.0236
-  - Grade5(purple): 0.0000
-  - Grade6(red): 0.0118
-
-[WhiteTest] PSNR=31.81, SSIM=0.9751, IoU_bin=0.0000, IoU_color=0.0000, mIoU_all=0.1416, mIoU_fg=0.0000
-  - Background(white): 0.9912
+[Case2] PSNR=23.14, SSIM=0.9777, IoU_bin=0.1497, IoU_color=0.0000, mIoU_all=0.1413, mIoU_fg=0.0000
+  - Background(white): 0.9889
   - Grade1(orange): 0.0000
   - Grade2(green): 0.0000
   - Grade3(darkgreen): 0.0000
@@ -653,8 +680,53 @@
   - Grade5(purple): 0.0000
   - Grade6(red): 0.0000
 
-[Overall] PSNR=31.81, SSIM=0.9751, mIoU_all=0.1416, mIoU_fg=0.0000
-  - Background(white): 0.9912
+[Overall] PSNR=24.13, SSIM=0.9691, mIoU_all=0.1418, mIoU_fg=0.0008
+  - Background(white): 0.9882
+  - Grade1(orange): 0.0012
+  - Grade2(green): 0.0033
+  - Grade3(darkgreen): 0.0000
+  - Grade4(skyblue): 0.0000
+  - Grade5(purple): 0.0000
+  - Grade6(red): 0.0000
+
+[Orig] PSNR=27.76, SSIM=0.9795, IoU_bin=0.2513, IoU_color=0.1793, mIoU_all=0.1896, mIoU_fg=0.0554
+  - Background(white): 0.9950
+  - Grade1(orange): 0.1537
+  - Grade2(green): 0.1531
+  - Grade3(darkgreen): 0.0000
+  - Grade4(skyblue): 0.0177
+  - Grade5(purple): 0.0000
+  - Grade6(red): 0.0077
+
+[WhiteTrain] PSNR=81.86, SSIM=1.0000, IoU_bin=0.0000, IoU_color=0.0000, mIoU_all=0.1429, mIoU_fg=0.0000
+  - Background(white): 1.0000
+  - Grade1(orange): 0.0000
+  - Grade2(green): 0.0000
+  - Grade3(darkgreen): 0.0000
+  - Grade4(skyblue): 0.0000
+  - Grade5(purple): 0.0000
+  - Grade6(red): 0.0000
+
+[Overall] PSNR=47.60, SSIM=0.9870, mIoU_all=0.1725, mIoU_fg=0.0351
+  - Background(white): 0.9968
+  - Grade1(orange): 0.0973
+  - Grade2(green): 0.0969
+  - Grade3(darkgreen): 0.0000
+  - Grade4(skyblue): 0.0112
+  - Grade5(purple): 0.0000
+  - Grade6(red): 0.0049
+
+[WhiteTest] PSNR=47.35, SSIM=0.9853, IoU_bin=0.0000, IoU_color=0.0000, mIoU_all=0.1424, mIoU_fg=0.0000
+  - Background(white): 0.9968
+  - Grade1(orange): 0.0000
+  - Grade2(green): 0.0000
+  - Grade3(darkgreen): 0.0000
+  - Grade4(skyblue): 0.0000
+  - Grade5(purple): 0.0000
+  - Grade6(red): 0.0000
+
+[Overall] PSNR=47.35, SSIM=0.9853, mIoU_all=0.1424, mIoU_fg=0.0000
+  - Background(white): 0.9968
   - Grade1(orange): 0.0000
   - Grade2(green): 0.0000
   - Grade3(darkgreen): 0.0000
@@ -664,7 +736,7 @@
 
 
 === Epoch 90 ===
-[Case1] PSNR=30.49, SSIM=0.9934, IoU_bin=0.0136, IoU_color=0.0000, mIoU_all=0.1426, mIoU_fg=0.0000
+[Case1] PSNR=30.62, SSIM=0.9923, IoU_bin=0.0244, IoU_color=0.0000, mIoU_all=0.1426, mIoU_fg=0.0000
   - Background(white): 0.9979
   - Grade1(orange): 0.0000
   - Grade2(green): 0.0000
@@ -673,8 +745,8 @@
   - Grade5(purple): 0.0000
   - Grade6(red): 0.0000
 
-[Case3] PSNR=17.76, SSIM=0.9770, IoU_bin=0.0118, IoU_color=0.0000, mIoU_all=0.1405, mIoU_fg=0.0000
-  - Background(white): 0.9834
+[Case3] PSNR=28.06, SSIM=0.9817, IoU_bin=0.0000, IoU_color=0.0000, mIoU_all=0.1410, mIoU_fg=0.0000
+  - Background(white): 0.9870
   - Grade1(orange): 0.0000
   - Grade2(green): 0.0000
   - Grade3(darkgreen): 0.0000
@@ -682,53 +754,17 @@
   - Grade5(purple): 0.0000
   - Grade6(red): 0.0000
 
-[Case4] PSNR=18.40, SSIM=0.9285, IoU_bin=0.3730, IoU_color=0.0704, mIoU_all=0.1587, mIoU_fg=0.0213
-  - Background(white): 0.9828
-  - Grade1(orange): 0.0158
-  - Grade2(green): 0.0999
+[Case4] PSNR=17.65, SSIM=0.9045, IoU_bin=0.3616, IoU_color=0.0256, mIoU_all=0.1473, mIoU_fg=0.0086
+  - Background(white): 0.9792
+  - Grade1(orange): 0.0007
+  - Grade2(green): 0.0387
   - Grade3(darkgreen): 0.0000
-  - Grade4(skyblue): 0.0122
+  - Grade4(skyblue): 0.0058
   - Grade5(purple): 0.0000
-  - Grade6(red): 0.0000
+  - Grade6(red): 0.0068
 
-[Case2] PSNR=23.47, SSIM=0.9781, IoU_bin=0.3238, IoU_color=0.0041, mIoU_all=0.1471, mIoU_fg=0.0068
-  - Background(white): 0.9892
-  - Grade1(orange): 0.0009
-  - Grade2(green): 0.0397
-  - Grade3(darkgreen): 0.0000
-  - Grade4(skyblue): 0.0000
-  - Grade5(purple): 0.0000
-  - Grade6(red): 0.0000
-
-[Overall] PSNR=22.84, SSIM=0.9722, mIoU_all=0.1472, mIoU_fg=0.0069
-  - Background(white): 0.9886
-  - Grade1(orange): 0.0031
-  - Grade2(green): 0.0365
-  - Grade3(darkgreen): 0.0000
-  - Grade4(skyblue): 0.0020
-  - Grade5(purple): 0.0000
-  - Grade6(red): 0.0000
-
-[Orig] PSNR=33.69, SSIM=0.9940, IoU_bin=0.5104, IoU_color=0.4558, mIoU_all=0.2648, mIoU_fg=0.1424
-  - Background(white): 0.9988
-  - Grade1(orange): 0.3659
-  - Grade2(green): 0.3820
-  - Grade3(darkgreen): 0.0000
-  - Grade4(skyblue): 0.0653
-  - Grade5(purple): 0.0000
-  - Grade6(red): 0.0413
-
-[Overall] PSNR=33.69, SSIM=0.9940, mIoU_all=0.2648, mIoU_fg=0.1424
-  - Background(white): 0.9988
-  - Grade1(orange): 0.3659
-  - Grade2(green): 0.3820
-  - Grade3(darkgreen): 0.0000
-  - Grade4(skyblue): 0.0653
-  - Grade5(purple): 0.0000
-  - Grade6(red): 0.0413
-
-[WhiteTest] PSNR=36.58, SSIM=0.9759, IoU_bin=0.0000, IoU_color=0.0000, mIoU_all=0.1417, mIoU_fg=0.0000
-  - Background(white): 0.9918
+[Case2] PSNR=23.52, SSIM=0.9808, IoU_bin=0.1463, IoU_color=0.0000, mIoU_all=0.1414, mIoU_fg=0.0000
+  - Background(white): 0.9895
   - Grade1(orange): 0.0000
   - Grade2(green): 0.0000
   - Grade3(darkgreen): 0.0000
@@ -736,8 +772,53 @@
   - Grade5(purple): 0.0000
   - Grade6(red): 0.0000
 
-[Overall] PSNR=36.58, SSIM=0.9759, mIoU_all=0.1417, mIoU_fg=0.0000
-  - Background(white): 0.9918
+[Overall] PSNR=24.48, SSIM=0.9702, mIoU_all=0.1425, mIoU_fg=0.0014
+  - Background(white): 0.9888
+  - Grade1(orange): 0.0001
+  - Grade2(green): 0.0064
+  - Grade3(darkgreen): 0.0000
+  - Grade4(skyblue): 0.0010
+  - Grade5(purple): 0.0000
+  - Grade6(red): 0.0011
+
+[Orig] PSNR=29.57, SSIM=0.9837, IoU_bin=0.2983, IoU_color=0.2592, mIoU_all=0.2103, mIoU_fg=0.0794
+  - Background(white): 0.9962
+  - Grade1(orange): 0.1981
+  - Grade2(green): 0.2352
+  - Grade3(darkgreen): 0.0000
+  - Grade4(skyblue): 0.0253
+  - Grade5(purple): 0.0000
+  - Grade6(red): 0.0174
+
+[WhiteTrain] PSNR=85.86, SSIM=1.0000, IoU_bin=0.0000, IoU_color=0.0000, mIoU_all=0.1429, mIoU_fg=0.0000
+  - Background(white): 1.0000
+  - Grade1(orange): 0.0000
+  - Grade2(green): 0.0000
+  - Grade3(darkgreen): 0.0000
+  - Grade4(skyblue): 0.0000
+  - Grade5(purple): 0.0000
+  - Grade6(red): 0.0000
+
+[Overall] PSNR=50.21, SSIM=0.9897, mIoU_all=0.1856, mIoU_fg=0.0502
+  - Background(white): 0.9976
+  - Grade1(orange): 0.1255
+  - Grade2(green): 0.1490
+  - Grade3(darkgreen): 0.0000
+  - Grade4(skyblue): 0.0160
+  - Grade5(purple): 0.0000
+  - Grade6(red): 0.0110
+
+[WhiteTest] PSNR=52.08, SSIM=0.9855, IoU_bin=0.0000, IoU_color=0.0000, mIoU_all=0.1424, mIoU_fg=0.0000
+  - Background(white): 0.9968
+  - Grade1(orange): 0.0000
+  - Grade2(green): 0.0000
+  - Grade3(darkgreen): 0.0000
+  - Grade4(skyblue): 0.0000
+  - Grade5(purple): 0.0000
+  - Grade6(red): 0.0000
+
+[Overall] PSNR=52.08, SSIM=0.9855, mIoU_all=0.1424, mIoU_fg=0.0000
+  - Background(white): 0.9968
   - Grade1(orange): 0.0000
   - Grade2(green): 0.0000
   - Grade3(darkgreen): 0.0000
@@ -747,7 +828,7 @@
 
 
 === Epoch 100 ===
-[Case1] PSNR=27.54, SSIM=0.9917, IoU_bin=0.0107, IoU_color=0.0000, mIoU_all=0.1425, mIoU_fg=0.0000
+[Case1] PSNR=27.72, SSIM=0.9928, IoU_bin=0.0000, IoU_color=0.0000, mIoU_all=0.1425, mIoU_fg=0.0000
   - Background(white): 0.9978
   - Grade1(orange): 0.0000
   - Grade2(green): 0.0000
@@ -756,8 +837,8 @@
   - Grade5(purple): 0.0000
   - Grade6(red): 0.0000
 
-[Case3] PSNR=20.90, SSIM=0.9772, IoU_bin=0.0837, IoU_color=0.0000, mIoU_all=0.1408, mIoU_fg=0.0000
-  - Background(white): 0.9857
+[Case3] PSNR=28.06, SSIM=0.9817, IoU_bin=0.0000, IoU_color=0.0000, mIoU_all=0.1410, mIoU_fg=0.0000
+  - Background(white): 0.9870
   - Grade1(orange): 0.0000
   - Grade2(green): 0.0000
   - Grade3(darkgreen): 0.0000
@@ -765,53 +846,44 @@
   - Grade5(purple): 0.0000
   - Grade6(red): 0.0000
 
-[Case4] PSNR=18.31, SSIM=0.9232, IoU_bin=0.4217, IoU_color=0.0637, mIoU_all=0.1565, mIoU_fg=0.0188
-  - Background(white): 0.9826
-  - Grade1(orange): 0.0102
-  - Grade2(green): 0.0903
-  - Grade3(darkgreen): 0.0000
-  - Grade4(skyblue): 0.0065
-  - Grade5(purple): 0.0000
-  - Grade6(red): 0.0061
-
-[Case2] PSNR=23.04, SSIM=0.9731, IoU_bin=0.2750, IoU_color=0.0042, mIoU_all=0.1486, mIoU_fg=0.0086
-  - Background(white): 0.9889
-  - Grade1(orange): 0.0008
-  - Grade2(green): 0.0508
+[Case4] PSNR=18.53, SSIM=0.9312, IoU_bin=0.3177, IoU_color=0.0353, mIoU_all=0.1493, mIoU_fg=0.0105
+  - Background(white): 0.9824
+  - Grade1(orange): 0.0032
+  - Grade2(green): 0.0595
   - Grade3(darkgreen): 0.0000
   - Grade4(skyblue): 0.0000
   - Grade5(purple): 0.0000
   - Grade6(red): 0.0000
 
-[Overall] PSNR=22.64, SSIM=0.9686, mIoU_all=0.1476, mIoU_fg=0.0074
-  - Background(white): 0.9888
-  - Grade1(orange): 0.0021
-  - Grade2(green): 0.0405
+[Case2] PSNR=23.40, SSIM=0.9808, IoU_bin=0.2090, IoU_color=0.0022, mIoU_all=0.1423, mIoU_fg=0.0011
+  - Background(white): 0.9893
+  - Grade1(orange): 0.0068
+  - Grade2(green): 0.0000
   - Grade3(darkgreen): 0.0000
-  - Grade4(skyblue): 0.0011
+  - Grade4(skyblue): 0.0000
   - Grade5(purple): 0.0000
-  - Grade6(red): 0.0010
+  - Grade6(red): 0.0000
 
-[Orig] PSNR=32.81, SSIM=0.9917, IoU_bin=0.4292, IoU_color=0.4026, mIoU_all=0.2518, mIoU_fg=0.1273
-  - Background(white): 0.9985
-  - Grade1(orange): 0.3456
-  - Grade2(green): 0.3345
+[Overall] PSNR=24.08, SSIM=0.9747, mIoU_all=0.1433, mIoU_fg=0.0023
+  - Background(white): 0.9892
+  - Grade1(orange): 0.0039
+  - Grade2(green): 0.0099
   - Grade3(darkgreen): 0.0000
-  - Grade4(skyblue): 0.0413
+  - Grade4(skyblue): 0.0000
   - Grade5(purple): 0.0000
-  - Grade6(red): 0.0426
+  - Grade6(red): 0.0000
 
-[Overall] PSNR=32.81, SSIM=0.9917, mIoU_all=0.2518, mIoU_fg=0.1273
-  - Background(white): 0.9985
-  - Grade1(orange): 0.3456
-  - Grade2(green): 0.3345
+[Orig] PSNR=29.57, SSIM=0.9871, IoU_bin=0.3309, IoU_color=0.2749, mIoU_all=0.2150, mIoU_fg=0.0847
+  - Background(white): 0.9967
+  - Grade1(orange): 0.2123
+  - Grade2(green): 0.2604
   - Grade3(darkgreen): 0.0000
-  - Grade4(skyblue): 0.0413
+  - Grade4(skyblue): 0.0172
   - Grade5(purple): 0.0000
-  - Grade6(red): 0.0426
+  - Grade6(red): 0.0182
 
-[WhiteTest] PSNR=35.30, SSIM=0.9724, IoU_bin=0.0000, IoU_color=0.0000, mIoU_all=0.1416, mIoU_fg=0.0000
-  - Background(white): 0.9913
+[WhiteTrain] PSNR=87.73, SSIM=1.0000, IoU_bin=0.0000, IoU_color=0.0000, mIoU_all=0.1429, mIoU_fg=0.0000
+  - Background(white): 1.0000
   - Grade1(orange): 0.0000
   - Grade2(green): 0.0000
   - Grade3(darkgreen): 0.0000
@@ -819,8 +891,26 @@
   - Grade5(purple): 0.0000
   - Grade6(red): 0.0000
 
-[Overall] PSNR=35.30, SSIM=0.9724, mIoU_all=0.1416, mIoU_fg=0.0000
-  - Background(white): 0.9913
+[Overall] PSNR=50.91, SSIM=0.9919, mIoU_all=0.1885, mIoU_fg=0.0536
+  - Background(white): 0.9979
+  - Grade1(orange): 0.1344
+  - Grade2(green): 0.1649
+  - Grade3(darkgreen): 0.0000
+  - Grade4(skyblue): 0.0109
+  - Grade5(purple): 0.0000
+  - Grade6(red): 0.0115
+
+[WhiteTest] PSNR=52.77, SSIM=0.9879, IoU_bin=0.0000, IoU_color=0.0000, mIoU_all=0.1423, mIoU_fg=0.0000
+  - Background(white): 0.9964
+  - Grade1(orange): 0.0000
+  - Grade2(green): 0.0000
+  - Grade3(darkgreen): 0.0000
+  - Grade4(skyblue): 0.0000
+  - Grade5(purple): 0.0000
+  - Grade6(red): 0.0000
+
+[Overall] PSNR=52.77, SSIM=0.9879, mIoU_all=0.1423, mIoU_fg=0.0000
+  - Background(white): 0.9964
   - Grade1(orange): 0.0000
   - Grade2(green): 0.0000
   - Grade3(darkgreen): 0.0000
@@ -830,17 +920,8 @@
 
 
 === Epoch 110 ===
-[Case1] PSNR=31.42, SSIM=0.9928, IoU_bin=0.1557, IoU_color=0.0149, mIoU_all=0.1452, mIoU_fg=0.0030
-  - Background(white): 0.9980
-  - Grade1(orange): 0.0000
-  - Grade2(green): 0.0181
-  - Grade3(darkgreen): 0.0000
-  - Grade4(skyblue): 0.0000
-  - Grade5(purple): 0.0000
-  - Grade6(red): 0.0000
-
-[Case3] PSNR=21.90, SSIM=0.9783, IoU_bin=0.0000, IoU_color=0.0000, mIoU_all=0.1408, mIoU_fg=0.0000
-  - Background(white): 0.9859
+[Case1] PSNR=29.74, SSIM=0.9930, IoU_bin=0.0000, IoU_color=0.0000, mIoU_all=0.1426, mIoU_fg=0.0000
+  - Background(white): 0.9979
   - Grade1(orange): 0.0000
   - Grade2(green): 0.0000
   - Grade3(darkgreen): 0.0000
@@ -848,53 +929,8 @@
   - Grade5(purple): 0.0000
   - Grade6(red): 0.0000
 
-[Case4] PSNR=18.47, SSIM=0.9245, IoU_bin=0.4680, IoU_color=0.0850, mIoU_all=0.1617, mIoU_fg=0.0248
-  - Background(white): 0.9829
-  - Grade1(orange): 0.0239
-  - Grade2(green): 0.1197
-  - Grade3(darkgreen): 0.0000
-  - Grade4(skyblue): 0.0054
-  - Grade5(purple): 0.0000
-  - Grade6(red): 0.0000
-
-[Case2] PSNR=23.50, SSIM=0.9754, IoU_bin=0.3311, IoU_color=0.0025, mIoU_all=0.1458, mIoU_fg=0.0053
-  - Background(white): 0.9889
-  - Grade1(orange): 0.0000
-  - Grade2(green): 0.0320
-  - Grade3(darkgreen): 0.0000
-  - Grade4(skyblue): 0.0000
-  - Grade5(purple): 0.0000
-  - Grade6(red): 0.0000
-
-[Overall] PSNR=23.71, SSIM=0.9703, mIoU_all=0.1475, mIoU_fg=0.0073
-  - Background(white): 0.9889
-  - Grade1(orange): 0.0040
-  - Grade2(green): 0.0389
-  - Grade3(darkgreen): 0.0000
-  - Grade4(skyblue): 0.0009
-  - Grade5(purple): 0.0000
-  - Grade6(red): 0.0000
-
-[Orig] PSNR=34.46, SSIM=0.9939, IoU_bin=0.4699, IoU_color=0.4428, mIoU_all=0.2629, mIoU_fg=0.1402
-  - Background(white): 0.9988
-  - Grade1(orange): 0.3688
-  - Grade2(green): 0.3691
-  - Grade3(darkgreen): 0.0000
-  - Grade4(skyblue): 0.0672
-  - Grade5(purple): 0.0000
-  - Grade6(red): 0.0361
-
-[Overall] PSNR=34.46, SSIM=0.9939, mIoU_all=0.2629, mIoU_fg=0.1402
-  - Background(white): 0.9988
-  - Grade1(orange): 0.3688
-  - Grade2(green): 0.3691
-  - Grade3(darkgreen): 0.0000
-  - Grade4(skyblue): 0.0672
-  - Grade5(purple): 0.0000
-  - Grade6(red): 0.0361
-
-[WhiteTest] PSNR=34.90, SSIM=0.9740, IoU_bin=0.0000, IoU_color=0.0000, mIoU_all=0.1417, mIoU_fg=0.0000
-  - Background(white): 0.9922
+[Case3] PSNR=28.06, SSIM=0.9817, IoU_bin=0.0000, IoU_color=0.0000, mIoU_all=0.1410, mIoU_fg=0.0000
+  - Background(white): 0.9870
   - Grade1(orange): 0.0000
   - Grade2(green): 0.0000
   - Grade3(darkgreen): 0.0000
@@ -902,8 +938,71 @@
   - Grade5(purple): 0.0000
   - Grade6(red): 0.0000
 
-[Overall] PSNR=34.90, SSIM=0.9740, mIoU_all=0.1417, mIoU_fg=0.0000
-  - Background(white): 0.9922
+[Case4] PSNR=17.97, SSIM=0.9184, IoU_bin=0.3589, IoU_color=0.0634, mIoU_all=0.1563, mIoU_fg=0.0189
+  - Background(white): 0.9807
+  - Grade1(orange): 0.0078
+  - Grade2(green): 0.1039
+  - Grade3(darkgreen): 0.0000
+  - Grade4(skyblue): 0.0018
+  - Grade5(purple): 0.0000
+  - Grade6(red): 0.0000
+
+[Case2] PSNR=23.62, SSIM=0.9822, IoU_bin=0.2043, IoU_color=0.0000, mIoU_all=0.1414, mIoU_fg=0.0000
+  - Background(white): 0.9896
+  - Grade1(orange): 0.0000
+  - Grade2(green): 0.0000
+  - Grade3(darkgreen): 0.0000
+  - Grade4(skyblue): 0.0000
+  - Grade5(purple): 0.0000
+  - Grade6(red): 0.0000
+
+[Overall] PSNR=24.44, SSIM=0.9733, mIoU_all=0.1440, mIoU_fg=0.0032
+  - Background(white): 0.9891
+  - Grade1(orange): 0.0013
+  - Grade2(green): 0.0173
+  - Grade3(darkgreen): 0.0000
+  - Grade4(skyblue): 0.0003
+  - Grade5(purple): 0.0000
+  - Grade6(red): 0.0000
+
+[Orig] PSNR=30.92, SSIM=0.9901, IoU_bin=0.3577, IoU_color=0.2989, mIoU_all=0.2305, mIoU_fg=0.1027
+  - Background(white): 0.9975
+  - Grade1(orange): 0.2503
+  - Grade2(green): 0.2895
+  - Grade3(darkgreen): 0.0000
+  - Grade4(skyblue): 0.0449
+  - Grade5(purple): 0.0000
+  - Grade6(red): 0.0314
+
+[WhiteTrain] PSNR=103.95, SSIM=1.0000, IoU_bin=0.0000, IoU_color=0.0000, mIoU_all=0.1429, mIoU_fg=0.0000
+  - Background(white): 1.0000
+  - Grade1(orange): 0.0000
+  - Grade2(green): 0.0000
+  - Grade3(darkgreen): 0.0000
+  - Grade4(skyblue): 0.0000
+  - Grade5(purple): 0.0000
+  - Grade6(red): 0.0000
+
+[Overall] PSNR=57.71, SSIM=0.9938, mIoU_all=0.1984, mIoU_fg=0.0650
+  - Background(white): 0.9984
+  - Grade1(orange): 0.1585
+  - Grade2(green): 0.1833
+  - Grade3(darkgreen): 0.0000
+  - Grade4(skyblue): 0.0284
+  - Grade5(purple): 0.0000
+  - Grade6(red): 0.0199
+
+[WhiteTest] PSNR=56.13, SSIM=0.9880, IoU_bin=0.0000, IoU_color=0.0000, mIoU_all=0.1424, mIoU_fg=0.0000
+  - Background(white): 0.9968
+  - Grade1(orange): 0.0000
+  - Grade2(green): 0.0000
+  - Grade3(darkgreen): 0.0000
+  - Grade4(skyblue): 0.0000
+  - Grade5(purple): 0.0000
+  - Grade6(red): 0.0000
+
+[Overall] PSNR=56.13, SSIM=0.9880, mIoU_all=0.1424, mIoU_fg=0.0000
+  - Background(white): 0.9968
   - Grade1(orange): 0.0000
   - Grade2(green): 0.0000
   - Grade3(darkgreen): 0.0000
@@ -913,17 +1012,17 @@
 
 
 === Epoch 120 ===
-[Case1] PSNR=27.97, SSIM=0.9913, IoU_bin=0.1637, IoU_color=0.0115, mIoU_all=0.1445, mIoU_fg=0.0023
+[Case1] PSNR=26.64, SSIM=0.9927, IoU_bin=0.0645, IoU_color=0.0000, mIoU_all=0.1425, mIoU_fg=0.0000
   - Background(white): 0.9978
   - Grade1(orange): 0.0000
-  - Grade2(green): 0.0138
+  - Grade2(green): 0.0000
   - Grade3(darkgreen): 0.0000
   - Grade4(skyblue): 0.0000
   - Grade5(purple): 0.0000
   - Grade6(red): 0.0000
 
-[Case3] PSNR=21.44, SSIM=0.9705, IoU_bin=0.1148, IoU_color=0.0000, mIoU_all=0.1408, mIoU_fg=0.0000
-  - Background(white): 0.9854
+[Case3] PSNR=28.06, SSIM=0.9817, IoU_bin=0.0000, IoU_color=0.0000, mIoU_all=0.1410, mIoU_fg=0.0000
+  - Background(white): 0.9870
   - Grade1(orange): 0.0000
   - Grade2(green): 0.0000
   - Grade3(darkgreen): 0.0000
@@ -931,53 +1030,35 @@
   - Grade5(purple): 0.0000
   - Grade6(red): 0.0000
 
-[Case4] PSNR=18.36, SSIM=0.9230, IoU_bin=0.4121, IoU_color=0.0867, mIoU_all=0.1622, mIoU_fg=0.0254
-  - Background(white): 0.9827
-  - Grade1(orange): 0.0367
-  - Grade2(green): 0.1157
-  - Grade3(darkgreen): 0.0000
-  - Grade4(skyblue): 0.0000
-  - Grade5(purple): 0.0000
-  - Grade6(red): 0.0000
-
-[Case2] PSNR=23.48, SSIM=0.9760, IoU_bin=0.2806, IoU_color=0.0005, mIoU_all=0.1421, mIoU_fg=0.0010
-  - Background(white): 0.9889
+[Case4] PSNR=18.16, SSIM=0.9266, IoU_bin=0.3968, IoU_color=0.0756, mIoU_all=0.1585, mIoU_fg=0.0211
+  - Background(white): 0.9824
   - Grade1(orange): 0.0000
-  - Grade2(green): 0.0058
+  - Grade2(green): 0.1211
+  - Grade3(darkgreen): 0.0000
+  - Grade4(skyblue): 0.0058
+  - Grade5(purple): 0.0000
+  - Grade6(red): 0.0000
+
+[Case2] PSNR=23.53, SSIM=0.9806, IoU_bin=0.2465, IoU_color=0.0019, mIoU_all=0.1421, mIoU_fg=0.0009
+  - Background(white): 0.9891
+  - Grade1(orange): 0.0052
+  - Grade2(green): 0.0000
   - Grade3(darkgreen): 0.0000
   - Grade4(skyblue): 0.0000
   - Grade5(purple): 0.0000
   - Grade6(red): 0.0000
 
-[Overall] PSNR=23.04, SSIM=0.9688, mIoU_all=0.1456, mIoU_fg=0.0051
-  - Background(white): 0.9888
-  - Grade1(orange): 0.0061
-  - Grade2(green): 0.0245
+[Overall] PSNR=23.91, SSIM=0.9738, mIoU_all=0.1447, mIoU_fg=0.0040
+  - Background(white): 0.9891
+  - Grade1(orange): 0.0026
+  - Grade2(green): 0.0202
   - Grade3(darkgreen): 0.0000
-  - Grade4(skyblue): 0.0000
+  - Grade4(skyblue): 0.0010
   - Grade5(purple): 0.0000
   - Grade6(red): 0.0000
 
-[Orig] PSNR=31.83, SSIM=0.9900, IoU_bin=0.4107, IoU_color=0.4021, mIoU_all=0.2513, mIoU_fg=0.1269
-  - Background(white): 0.9980
-  - Grade1(orange): 0.3171
-  - Grade2(green): 0.3734
-  - Grade3(darkgreen): 0.0000
-  - Grade4(skyblue): 0.0443
-  - Grade5(purple): 0.0000
-  - Grade6(red): 0.0266
-
-[Overall] PSNR=31.83, SSIM=0.9900, mIoU_all=0.2513, mIoU_fg=0.1269
-  - Background(white): 0.9980
-  - Grade1(orange): 0.3171
-  - Grade2(green): 0.3734
-  - Grade3(darkgreen): 0.0000
-  - Grade4(skyblue): 0.0443
-  - Grade5(purple): 0.0000
-  - Grade6(red): 0.0266
-
-[WhiteTest] PSNR=29.86, SSIM=0.9703, IoU_bin=0.0000, IoU_color=0.0000, mIoU_all=0.1416, mIoU_fg=0.0000
-  - Background(white): 0.9914
+[WhiteTrain] PSNR=84.16, SSIM=1.0000, IoU_bin=0.0000, IoU_color=0.0000, mIoU_all=0.1429, mIoU_fg=0.0000
+  - Background(white): 1.0000
   - Grade1(orange): 0.0000
   - Grade2(green): 0.0000
   - Grade3(darkgreen): 0.0000
@@ -985,8 +1066,35 @@
   - Grade5(purple): 0.0000
   - Grade6(red): 0.0000
 
-[Overall] PSNR=29.86, SSIM=0.9703, mIoU_all=0.1416, mIoU_fg=0.0000
-  - Background(white): 0.9914
+[Orig] PSNR=31.06, SSIM=0.9908, IoU_bin=0.3883, IoU_color=0.3220, mIoU_all=0.2349, mIoU_fg=0.1078
+  - Background(white): 0.9977
+  - Grade1(orange): 0.2709
+  - Grade2(green): 0.2956
+  - Grade3(darkgreen): 0.0000
+  - Grade4(skyblue): 0.0549
+  - Grade5(purple): 0.0000
+  - Grade6(red): 0.0253
+
+[Overall] PSNR=50.54, SSIM=0.9942, mIoU_all=0.2012, mIoU_fg=0.0683
+  - Background(white): 0.9985
+  - Grade1(orange): 0.1716
+  - Grade2(green): 0.1872
+  - Grade3(darkgreen): 0.0000
+  - Grade4(skyblue): 0.0348
+  - Grade5(purple): 0.0000
+  - Grade6(red): 0.0160
+
+[WhiteTest] PSNR=48.83, SSIM=0.9883, IoU_bin=0.0000, IoU_color=0.0000, mIoU_all=0.1424, mIoU_fg=0.0000
+  - Background(white): 0.9970
+  - Grade1(orange): 0.0000
+  - Grade2(green): 0.0000
+  - Grade3(darkgreen): 0.0000
+  - Grade4(skyblue): 0.0000
+  - Grade5(purple): 0.0000
+  - Grade6(red): 0.0000
+
+[Overall] PSNR=48.83, SSIM=0.9883, mIoU_all=0.1424, mIoU_fg=0.0000
+  - Background(white): 0.9970
   - Grade1(orange): 0.0000
   - Grade2(green): 0.0000
   - Grade3(darkgreen): 0.0000
@@ -996,17 +1104,8 @@
 
 
 === Epoch 130 ===
-[Case1] PSNR=29.33, SSIM=0.9929, IoU_bin=0.0972, IoU_color=0.0136, mIoU_all=0.1449, mIoU_fg=0.0027
-  - Background(white): 0.9980
-  - Grade1(orange): 0.0000
-  - Grade2(green): 0.0163
-  - Grade3(darkgreen): 0.0000
-  - Grade4(skyblue): 0.0000
-  - Grade5(purple): 0.0000
-  - Grade6(red): 0.0000
-
-[Case3] PSNR=19.10, SSIM=0.9781, IoU_bin=0.0000, IoU_color=0.0000, mIoU_all=0.1405, mIoU_fg=0.0000
-  - Background(white): 0.9833
+[Case1] PSNR=31.38, SSIM=0.9933, IoU_bin=0.0000, IoU_color=0.0000, mIoU_all=0.1426, mIoU_fg=0.0000
+  - Background(white): 0.9979
   - Grade1(orange): 0.0000
   - Grade2(green): 0.0000
   - Grade3(darkgreen): 0.0000
@@ -1014,53 +1113,8 @@
   - Grade5(purple): 0.0000
   - Grade6(red): 0.0000
 
-[Case4] PSNR=18.61, SSIM=0.9311, IoU_bin=0.3699, IoU_color=0.0689, mIoU_all=0.1581, mIoU_fg=0.0206
-  - Background(white): 0.9829
-  - Grade1(orange): 0.0239
-  - Grade2(green): 0.0944
-  - Grade3(darkgreen): 0.0000
-  - Grade4(skyblue): 0.0053
-  - Grade5(purple): 0.0000
-  - Grade6(red): 0.0000
-
-[Case2] PSNR=23.54, SSIM=0.9785, IoU_bin=0.2917, IoU_color=0.0035, mIoU_all=0.1435, mIoU_fg=0.0025
-  - Background(white): 0.9892
-  - Grade1(orange): 0.0000
-  - Grade2(green): 0.0152
-  - Grade3(darkgreen): 0.0000
-  - Grade4(skyblue): 0.0000
-  - Grade5(purple): 0.0000
-  - Grade6(red): 0.0000
-
-[Overall] PSNR=22.94, SSIM=0.9729, mIoU_all=0.1456, mIoU_fg=0.0052
-  - Background(white): 0.9886
-  - Grade1(orange): 0.0040
-  - Grade2(green): 0.0261
-  - Grade3(darkgreen): 0.0000
-  - Grade4(skyblue): 0.0009
-  - Grade5(purple): 0.0000
-  - Grade6(red): 0.0000
-
-[Orig] PSNR=34.90, SSIM=0.9955, IoU_bin=0.5656, IoU_color=0.4973, mIoU_all=0.2780, mIoU_fg=0.1578
-  - Background(white): 0.9989
-  - Grade1(orange): 0.3950
-  - Grade2(green): 0.4192
-  - Grade3(darkgreen): 0.0000
-  - Grade4(skyblue): 0.0830
-  - Grade5(purple): 0.0000
-  - Grade6(red): 0.0499
-
-[Overall] PSNR=34.90, SSIM=0.9955, mIoU_all=0.2780, mIoU_fg=0.1578
-  - Background(white): 0.9989
-  - Grade1(orange): 0.3950
-  - Grade2(green): 0.4192
-  - Grade3(darkgreen): 0.0000
-  - Grade4(skyblue): 0.0830
-  - Grade5(purple): 0.0000
-  - Grade6(red): 0.0499
-
-[WhiteTest] PSNR=37.56, SSIM=0.9759, IoU_bin=0.0000, IoU_color=0.0000, mIoU_all=0.1416, mIoU_fg=0.0000
-  - Background(white): 0.9914
+[Case3] PSNR=28.06, SSIM=0.9817, IoU_bin=0.0000, IoU_color=0.0000, mIoU_all=0.1410, mIoU_fg=0.0000
+  - Background(white): 0.9870
   - Grade1(orange): 0.0000
   - Grade2(green): 0.0000
   - Grade3(darkgreen): 0.0000
@@ -1068,8 +1122,71 @@
   - Grade5(purple): 0.0000
   - Grade6(red): 0.0000
 
-[Overall] PSNR=37.56, SSIM=0.9759, mIoU_all=0.1416, mIoU_fg=0.0000
-  - Background(white): 0.9914
+[Case4] PSNR=18.07, SSIM=0.9168, IoU_bin=0.4170, IoU_color=0.0796, mIoU_all=0.1596, mIoU_fg=0.0226
+  - Background(white): 0.9812
+  - Grade1(orange): 0.0082
+  - Grade2(green): 0.1181
+  - Grade3(darkgreen): 0.0000
+  - Grade4(skyblue): 0.0093
+  - Grade5(purple): 0.0000
+  - Grade6(red): 0.0000
+
+[Case2] PSNR=23.47, SSIM=0.9809, IoU_bin=0.0833, IoU_color=0.0000, mIoU_all=0.1413, mIoU_fg=0.0000
+  - Background(white): 0.9893
+  - Grade1(orange): 0.0000
+  - Grade2(green): 0.0000
+  - Grade3(darkgreen): 0.0000
+  - Grade4(skyblue): 0.0000
+  - Grade5(purple): 0.0000
+  - Grade6(red): 0.0000
+
+[Overall] PSNR=24.65, SSIM=0.9724, mIoU_all=0.1445, mIoU_fg=0.0038
+  - Background(white): 0.9890
+  - Grade1(orange): 0.0014
+  - Grade2(green): 0.0197
+  - Grade3(darkgreen): 0.0000
+  - Grade4(skyblue): 0.0015
+  - Grade5(purple): 0.0000
+  - Grade6(red): 0.0000
+
+[Orig] PSNR=31.21, SSIM=0.9905, IoU_bin=0.3546, IoU_color=0.3124, mIoU_all=0.2323, mIoU_fg=0.1047
+  - Background(white): 0.9976
+  - Grade1(orange): 0.2558
+  - Grade2(green): 0.2960
+  - Grade3(darkgreen): 0.0000
+  - Grade4(skyblue): 0.0565
+  - Grade5(purple): 0.0000
+  - Grade6(red): 0.0201
+
+[WhiteTrain] PSNR=86.46, SSIM=1.0000, IoU_bin=0.0000, IoU_color=0.0000, mIoU_all=0.1429, mIoU_fg=0.0000
+  - Background(white): 1.0000
+  - Grade1(orange): 0.0000
+  - Grade2(green): 0.0000
+  - Grade3(darkgreen): 0.0000
+  - Grade4(skyblue): 0.0000
+  - Grade5(purple): 0.0000
+  - Grade6(red): 0.0000
+
+[Overall] PSNR=51.47, SSIM=0.9940, mIoU_all=0.1995, mIoU_fg=0.0663
+  - Background(white): 0.9985
+  - Grade1(orange): 0.1620
+  - Grade2(green): 0.1874
+  - Grade3(darkgreen): 0.0000
+  - Grade4(skyblue): 0.0358
+  - Grade5(purple): 0.0000
+  - Grade6(red): 0.0127
+
+[WhiteTest] PSNR=55.40, SSIM=0.9875, IoU_bin=0.0000, IoU_color=0.0000, mIoU_all=0.1424, mIoU_fg=0.0000
+  - Background(white): 0.9965
+  - Grade1(orange): 0.0000
+  - Grade2(green): 0.0000
+  - Grade3(darkgreen): 0.0000
+  - Grade4(skyblue): 0.0000
+  - Grade5(purple): 0.0000
+  - Grade6(red): 0.0000
+
+[Overall] PSNR=55.40, SSIM=0.9875, mIoU_all=0.1424, mIoU_fg=0.0000
+  - Background(white): 0.9965
   - Grade1(orange): 0.0000
   - Grade2(green): 0.0000
   - Grade3(darkgreen): 0.0000
@@ -1079,17 +1196,8 @@
 
 
 === Epoch 140 ===
-[Case1] PSNR=27.16, SSIM=0.9920, IoU_bin=0.0874, IoU_color=0.0074, mIoU_all=0.1438, mIoU_fg=0.0015
-  - Background(white): 0.9977
-  - Grade1(orange): 0.0000
-  - Grade2(green): 0.0090
-  - Grade3(darkgreen): 0.0000
-  - Grade4(skyblue): 0.0000
-  - Grade5(purple): 0.0000
-  - Grade6(red): 0.0000
-
-[Case3] PSNR=17.60, SSIM=0.9762, IoU_bin=0.0000, IoU_color=0.0000, mIoU_all=0.1404, mIoU_fg=0.0000
-  - Background(white): 0.9829
+[Case1] PSNR=25.65, SSIM=0.9897, IoU_bin=0.0310, IoU_color=0.0000, mIoU_all=0.1425, mIoU_fg=0.0000
+  - Background(white): 0.9974
   - Grade1(orange): 0.0000
   - Grade2(green): 0.0000
   - Grade3(darkgreen): 0.0000
@@ -1097,53 +1205,8 @@
   - Grade5(purple): 0.0000
   - Grade6(red): 0.0000
 
-[Case4] PSNR=18.10, SSIM=0.9239, IoU_bin=0.4099, IoU_color=0.0835, mIoU_all=0.1612, mIoU_fg=0.0243
-  - Background(white): 0.9829
-  - Grade1(orange): 0.0207
-  - Grade2(green): 0.1148
-  - Grade3(darkgreen): 0.0000
-  - Grade4(skyblue): 0.0101
-  - Grade5(purple): 0.0000
-  - Grade6(red): 0.0000
-
-[Case2] PSNR=23.49, SSIM=0.9778, IoU_bin=0.3426, IoU_color=0.0056, mIoU_all=0.1433, mIoU_fg=0.0024
-  - Background(white): 0.9890
-  - Grade1(orange): 0.0000
-  - Grade2(green): 0.0141
-  - Grade3(darkgreen): 0.0000
-  - Grade4(skyblue): 0.0000
-  - Grade5(purple): 0.0000
-  - Grade6(red): 0.0000
-
-[Overall] PSNR=22.22, SSIM=0.9709, mIoU_all=0.1459, mIoU_fg=0.0055
-  - Background(white): 0.9884
-  - Grade1(orange): 0.0035
-  - Grade2(green): 0.0277
-  - Grade3(darkgreen): 0.0000
-  - Grade4(skyblue): 0.0017
-  - Grade5(purple): 0.0000
-  - Grade6(red): 0.0000
-
-[Orig] PSNR=33.94, SSIM=0.9938, IoU_bin=0.5049, IoU_color=0.4329, mIoU_all=0.2562, mIoU_fg=0.1325
-  - Background(white): 0.9986
-  - Grade1(orange): 0.3537
-  - Grade2(green): 0.3659
-  - Grade3(darkgreen): 0.0000
-  - Grade4(skyblue): 0.0501
-  - Grade5(purple): 0.0000
-  - Grade6(red): 0.0253
-
-[Overall] PSNR=33.94, SSIM=0.9938, mIoU_all=0.2562, mIoU_fg=0.1325
-  - Background(white): 0.9986
-  - Grade1(orange): 0.3537
-  - Grade2(green): 0.3659
-  - Grade3(darkgreen): 0.0000
-  - Grade4(skyblue): 0.0501
-  - Grade5(purple): 0.0000
-  - Grade6(red): 0.0253
-
-[WhiteTest] PSNR=31.07, SSIM=0.9716, IoU_bin=0.0000, IoU_color=0.0000, mIoU_all=0.1414, mIoU_fg=0.0000
-  - Background(white): 0.9901
+[Case3] PSNR=28.06, SSIM=0.9817, IoU_bin=0.0000, IoU_color=0.0000, mIoU_all=0.1410, mIoU_fg=0.0000
+  - Background(white): 0.9870
   - Grade1(orange): 0.0000
   - Grade2(green): 0.0000
   - Grade3(darkgreen): 0.0000
@@ -1151,8 +1214,71 @@
   - Grade5(purple): 0.0000
   - Grade6(red): 0.0000
 
-[Overall] PSNR=31.07, SSIM=0.9716, mIoU_all=0.1414, mIoU_fg=0.0000
-  - Background(white): 0.9901
+[Case4] PSNR=18.38, SSIM=0.9194, IoU_bin=0.4483, IoU_color=0.0991, mIoU_all=0.1652, mIoU_fg=0.0290
+  - Background(white): 0.9824
+  - Grade1(orange): 0.0014
+  - Grade2(green): 0.1673
+  - Grade3(darkgreen): 0.0000
+  - Grade4(skyblue): 0.0051
+  - Grade5(purple): 0.0000
+  - Grade6(red): 0.0000
+
+[Case2] PSNR=23.53, SSIM=0.9806, IoU_bin=0.2132, IoU_color=0.0001, mIoU_all=0.1414, mIoU_fg=0.0000
+  - Background(white): 0.9895
+  - Grade1(orange): 0.0001
+  - Grade2(green): 0.0000
+  - Grade3(darkgreen): 0.0000
+  - Grade4(skyblue): 0.0000
+  - Grade5(purple): 0.0000
+  - Grade6(red): 0.0000
+
+[Overall] PSNR=23.78, SSIM=0.9721, mIoU_all=0.1455, mIoU_fg=0.0048
+  - Background(white): 0.9892
+  - Grade1(orange): 0.0003
+  - Grade2(green): 0.0279
+  - Grade3(darkgreen): 0.0000
+  - Grade4(skyblue): 0.0008
+  - Grade5(purple): 0.0000
+  - Grade6(red): 0.0000
+
+[Orig] PSNR=30.68, SSIM=0.9895, IoU_bin=0.3815, IoU_color=0.3443, mIoU_all=0.2388, mIoU_fg=0.1124
+  - Background(white): 0.9976
+  - Grade1(orange): 0.2965
+  - Grade2(green): 0.3118
+  - Grade3(darkgreen): 0.0000
+  - Grade4(skyblue): 0.0425
+  - Grade5(purple): 0.0000
+  - Grade6(red): 0.0235
+
+[WhiteTrain] PSNR=71.71, SSIM=0.9996, IoU_bin=0.0000, IoU_color=0.0000, mIoU_all=0.1428, mIoU_fg=0.0000
+  - Background(white): 0.9999
+  - Grade1(orange): 0.0000
+  - Grade2(green): 0.0000
+  - Grade3(darkgreen): 0.0000
+  - Grade4(skyblue): 0.0000
+  - Grade5(purple): 0.0000
+  - Grade6(red): 0.0000
+
+[Overall] PSNR=45.73, SSIM=0.9932, mIoU_all=0.2036, mIoU_fg=0.0712
+  - Background(white): 0.9985
+  - Grade1(orange): 0.1877
+  - Grade2(green): 0.1974
+  - Grade3(darkgreen): 0.0000
+  - Grade4(skyblue): 0.0269
+  - Grade5(purple): 0.0000
+  - Grade6(red): 0.0149
+
+[WhiteTest] PSNR=49.01, SSIM=0.9858, IoU_bin=0.0000, IoU_color=0.0000, mIoU_all=0.1424, mIoU_fg=0.0000
+  - Background(white): 0.9965
+  - Grade1(orange): 0.0000
+  - Grade2(green): 0.0000
+  - Grade3(darkgreen): 0.0000
+  - Grade4(skyblue): 0.0000
+  - Grade5(purple): 0.0000
+  - Grade6(red): 0.0000
+
+[Overall] PSNR=49.01, SSIM=0.9858, mIoU_all=0.1424, mIoU_fg=0.0000
+  - Background(white): 0.9965
   - Grade1(orange): 0.0000
   - Grade2(green): 0.0000
   - Grade3(darkgreen): 0.0000
@@ -1162,17 +1288,8 @@
 
 
 === Epoch 150 ===
-[Case1] PSNR=31.00, SSIM=0.9911, IoU_bin=0.0573, IoU_color=0.0074, mIoU_all=0.1439, mIoU_fg=0.0015
-  - Background(white): 0.9979
-  - Grade1(orange): 0.0000
-  - Grade2(green): 0.0091
-  - Grade3(darkgreen): 0.0000
-  - Grade4(skyblue): 0.0000
-  - Grade5(purple): 0.0000
-  - Grade6(red): 0.0000
-
-[Case3] PSNR=17.38, SSIM=0.9661, IoU_bin=0.0116, IoU_color=0.0000, mIoU_all=0.1404, mIoU_fg=0.0000
-  - Background(white): 0.9825
+[Case1] PSNR=29.17, SSIM=0.9910, IoU_bin=0.0447, IoU_color=0.0000, mIoU_all=0.1425, mIoU_fg=0.0000
+  - Background(white): 0.9977
   - Grade1(orange): 0.0000
   - Grade2(green): 0.0000
   - Grade3(darkgreen): 0.0000
@@ -1180,53 +1297,53 @@
   - Grade5(purple): 0.0000
   - Grade6(red): 0.0000
 
-[Case4] PSNR=18.30, SSIM=0.9208, IoU_bin=0.3705, IoU_color=0.0667, mIoU_all=0.1562, mIoU_fg=0.0186
-  - Background(white): 0.9820
-  - Grade1(orange): 0.0068
-  - Grade2(green): 0.0995
+[Case3] PSNR=28.06, SSIM=0.9817, IoU_bin=0.0000, IoU_color=0.0000, mIoU_all=0.1410, mIoU_fg=0.0000
+  - Background(white): 0.9870
+  - Grade1(orange): 0.0000
+  - Grade2(green): 0.0000
   - Grade3(darkgreen): 0.0000
-  - Grade4(skyblue): 0.0052
+  - Grade4(skyblue): 0.0000
   - Grade5(purple): 0.0000
   - Grade6(red): 0.0000
 
-[Case2] PSNR=23.70, SSIM=0.9780, IoU_bin=0.3322, IoU_color=0.0110, mIoU_all=0.1461, mIoU_fg=0.0055
-  - Background(white): 0.9894
+[Case4] PSNR=18.17, SSIM=0.9114, IoU_bin=0.4416, IoU_color=0.0641, mIoU_all=0.1568, mIoU_fg=0.0191
+  - Background(white): 0.9828
+  - Grade1(orange): 0.0036
+  - Grade2(green): 0.0922
+  - Grade3(darkgreen): 0.0000
+  - Grade4(skyblue): 0.0117
+  - Grade5(purple): 0.0000
+  - Grade6(red): 0.0070
+
+[Case2] PSNR=23.48, SSIM=0.9807, IoU_bin=0.1516, IoU_color=0.0001, mIoU_all=0.1414, mIoU_fg=0.0000
+  - Background(white): 0.9893
   - Grade1(orange): 0.0001
-  - Grade2(green): 0.0330
+  - Grade2(green): 0.0000
   - Grade3(darkgreen): 0.0000
   - Grade4(skyblue): 0.0000
   - Grade5(purple): 0.0000
   - Grade6(red): 0.0000
 
-[Overall] PSNR=22.96, SSIM=0.9687, mIoU_all=0.1464, mIoU_fg=0.0061
-  - Background(white): 0.9884
-  - Grade1(orange): 0.0012
-  - Grade2(green): 0.0346
+[Overall] PSNR=24.31, SSIM=0.9710, mIoU_all=0.1441, mIoU_fg=0.0032
+  - Background(white): 0.9893
+  - Grade1(orange): 0.0007
+  - Grade2(green): 0.0154
   - Grade3(darkgreen): 0.0000
-  - Grade4(skyblue): 0.0009
+  - Grade4(skyblue): 0.0019
   - Grade5(purple): 0.0000
-  - Grade6(red): 0.0000
+  - Grade6(red): 0.0012
 
-[Orig] PSNR=32.35, SSIM=0.9870, IoU_bin=0.4241, IoU_color=0.3382, mIoU_all=0.2302, mIoU_fg=0.1023
-  - Background(white): 0.9980
-  - Grade1(orange): 0.2602
-  - Grade2(green): 0.3197
+[Orig] PSNR=29.59, SSIM=0.9885, IoU_bin=0.3553, IoU_color=0.3061, mIoU_all=0.2238, mIoU_fg=0.0949
+  - Background(white): 0.9973
+  - Grade1(orange): 0.2541
+  - Grade2(green): 0.2721
   - Grade3(darkgreen): 0.0000
-  - Grade4(skyblue): 0.0206
+  - Grade4(skyblue): 0.0322
   - Grade5(purple): 0.0000
-  - Grade6(red): 0.0130
+  - Grade6(red): 0.0111
 
-[Overall] PSNR=32.35, SSIM=0.9870, mIoU_all=0.2302, mIoU_fg=0.1023
-  - Background(white): 0.9980
-  - Grade1(orange): 0.2602
-  - Grade2(green): 0.3197
-  - Grade3(darkgreen): 0.0000
-  - Grade4(skyblue): 0.0206
-  - Grade5(purple): 0.0000
-  - Grade6(red): 0.0130
-
-[WhiteTest] PSNR=28.78, SSIM=0.9692, IoU_bin=0.0000, IoU_color=0.0000, mIoU_all=0.1417, mIoU_fg=0.0000
-  - Background(white): 0.9917
+[WhiteTrain] PSNR=80.31, SSIM=0.9999, IoU_bin=0.0000, IoU_color=0.0000, mIoU_all=0.1429, mIoU_fg=0.0000
+  - Background(white): 1.0000
   - Grade1(orange): 0.0000
   - Grade2(green): 0.0000
   - Grade3(darkgreen): 0.0000
@@ -1234,8 +1351,26 @@
   - Grade5(purple): 0.0000
   - Grade6(red): 0.0000
 
-[Overall] PSNR=28.78, SSIM=0.9692, mIoU_all=0.1417, mIoU_fg=0.0000
-  - Background(white): 0.9917
+[Overall] PSNR=48.19, SSIM=0.9927, mIoU_all=0.1941, mIoU_fg=0.0601
+  - Background(white): 0.9983
+  - Grade1(orange): 0.1609
+  - Grade2(green): 0.1723
+  - Grade3(darkgreen): 0.0000
+  - Grade4(skyblue): 0.0204
+  - Grade5(purple): 0.0000
+  - Grade6(red): 0.0070
+
+[WhiteTest] PSNR=50.83, SSIM=0.9864, IoU_bin=0.0000, IoU_color=0.0000, mIoU_all=0.1423, mIoU_fg=0.0000
+  - Background(white): 0.9960
+  - Grade1(orange): 0.0000
+  - Grade2(green): 0.0000
+  - Grade3(darkgreen): 0.0000
+  - Grade4(skyblue): 0.0000
+  - Grade5(purple): 0.0000
+  - Grade6(red): 0.0000
+
+[Overall] PSNR=50.83, SSIM=0.9864, mIoU_all=0.1423, mIoU_fg=0.0000
+  - Background(white): 0.9960
   - Grade1(orange): 0.0000
   - Grade2(green): 0.0000
   - Grade3(darkgreen): 0.0000
@@ -1245,17 +1380,8 @@
 
 
 === Epoch 160 ===
-[Case1] PSNR=25.33, SSIM=0.9892, IoU_bin=0.1082, IoU_color=0.0184, mIoU_all=0.1457, mIoU_fg=0.0038
-  - Background(white): 0.9976
-  - Grade1(orange): 0.0000
-  - Grade2(green): 0.0225
-  - Grade3(darkgreen): 0.0000
-  - Grade4(skyblue): 0.0000
-  - Grade5(purple): 0.0000
-  - Grade6(red): 0.0000
-
-[Case3] PSNR=20.70, SSIM=0.9788, IoU_bin=0.0070, IoU_color=0.0000, mIoU_all=0.1408, mIoU_fg=0.0000
-  - Background(white): 0.9853
+[Case1] PSNR=28.02, SSIM=0.9917, IoU_bin=0.0833, IoU_color=0.0000, mIoU_all=0.1425, mIoU_fg=0.0000
+  - Background(white): 0.9978
   - Grade1(orange): 0.0000
   - Grade2(green): 0.0000
   - Grade3(darkgreen): 0.0000
@@ -1263,53 +1389,8 @@
   - Grade5(purple): 0.0000
   - Grade6(red): 0.0000
 
-[Case4] PSNR=18.27, SSIM=0.9173, IoU_bin=0.4468, IoU_color=0.0916, mIoU_all=0.1653, mIoU_fg=0.0291
-  - Background(white): 0.9823
-  - Grade1(orange): 0.0287
-  - Grade2(green): 0.1270
-  - Grade3(darkgreen): 0.0000
-  - Grade4(skyblue): 0.0124
-  - Grade5(purple): 0.0000
-  - Grade6(red): 0.0064
-
-[Case2] PSNR=23.39, SSIM=0.9747, IoU_bin=0.2646, IoU_color=0.0012, mIoU_all=0.1423, mIoU_fg=0.0012
-  - Background(white): 0.9887
-  - Grade1(orange): 0.0009
-  - Grade2(green): 0.0065
-  - Grade3(darkgreen): 0.0000
-  - Grade4(skyblue): 0.0000
-  - Grade5(purple): 0.0000
-  - Grade6(red): 0.0000
-
-[Overall] PSNR=22.41, SSIM=0.9682, mIoU_all=0.1464, mIoU_fg=0.0061
-  - Background(white): 0.9885
-  - Grade1(orange): 0.0052
-  - Grade2(green): 0.0282
-  - Grade3(darkgreen): 0.0000
-  - Grade4(skyblue): 0.0021
-  - Grade5(purple): 0.0000
-  - Grade6(red): 0.0011
-
-[Orig] PSNR=32.82, SSIM=0.9912, IoU_bin=0.4239, IoU_color=0.4458, mIoU_all=0.2605, mIoU_fg=0.1375
-  - Background(white): 0.9984
-  - Grade1(orange): 0.3593
-  - Grade2(green): 0.3838
-  - Grade3(darkgreen): 0.0000
-  - Grade4(skyblue): 0.0516
-  - Grade5(purple): 0.0000
-  - Grade6(red): 0.0306
-
-[Overall] PSNR=32.82, SSIM=0.9912, mIoU_all=0.2605, mIoU_fg=0.1375
-  - Background(white): 0.9984
-  - Grade1(orange): 0.3593
-  - Grade2(green): 0.3838
-  - Grade3(darkgreen): 0.0000
-  - Grade4(skyblue): 0.0516
-  - Grade5(purple): 0.0000
-  - Grade6(red): 0.0306
-
-[WhiteTest] PSNR=33.31, SSIM=0.9704, IoU_bin=0.0000, IoU_color=0.0000, mIoU_all=0.1416, mIoU_fg=0.0000
-  - Background(white): 0.9909
+[Case3] PSNR=28.06, SSIM=0.9817, IoU_bin=0.0000, IoU_color=0.0000, mIoU_all=0.1410, mIoU_fg=0.0000
+  - Background(white): 0.9870
   - Grade1(orange): 0.0000
   - Grade2(green): 0.0000
   - Grade3(darkgreen): 0.0000
@@ -1317,8 +1398,71 @@
   - Grade5(purple): 0.0000
   - Grade6(red): 0.0000
 
-[Overall] PSNR=33.31, SSIM=0.9704, mIoU_all=0.1416, mIoU_fg=0.0000
-  - Background(white): 0.9909
+[Case4] PSNR=18.62, SSIM=0.9314, IoU_bin=0.3929, IoU_color=0.0728, mIoU_all=0.1575, mIoU_fg=0.0198
+  - Background(white): 0.9838
+  - Grade1(orange): 0.0008
+  - Grade2(green): 0.1097
+  - Grade3(darkgreen): 0.0000
+  - Grade4(skyblue): 0.0081
+  - Grade5(purple): 0.0000
+  - Grade6(red): 0.0000
+
+[Case2] PSNR=23.56, SSIM=0.9822, IoU_bin=0.1663, IoU_color=0.0000, mIoU_all=0.1414, mIoU_fg=0.0000
+  - Background(white): 0.9895
+  - Grade1(orange): 0.0000
+  - Grade2(green): 0.0000
+  - Grade3(darkgreen): 0.0000
+  - Grade4(skyblue): 0.0000
+  - Grade5(purple): 0.0000
+  - Grade6(red): 0.0000
+
+[Overall] PSNR=24.23, SSIM=0.9752, mIoU_all=0.1442, mIoU_fg=0.0033
+  - Background(white): 0.9895
+  - Grade1(orange): 0.0001
+  - Grade2(green): 0.0183
+  - Grade3(darkgreen): 0.0000
+  - Grade4(skyblue): 0.0013
+  - Grade5(purple): 0.0000
+  - Grade6(red): 0.0000
+
+[WhiteTrain] PSNR=76.43, SSIM=0.9997, IoU_bin=0.0000, IoU_color=0.0000, mIoU_all=0.1428, mIoU_fg=0.0000
+  - Background(white): 0.9999
+  - Grade1(orange): 0.0000
+  - Grade2(green): 0.0000
+  - Grade3(darkgreen): 0.0000
+  - Grade4(skyblue): 0.0000
+  - Grade5(purple): 0.0000
+  - Grade6(red): 0.0000
+
+[Orig] PSNR=32.56, SSIM=0.9924, IoU_bin=0.4346, IoU_color=0.3611, mIoU_all=0.2451, mIoU_fg=0.1196
+  - Background(white): 0.9980
+  - Grade1(orange): 0.2918
+  - Grade2(green): 0.3489
+  - Grade3(darkgreen): 0.0000
+  - Grade4(skyblue): 0.0570
+  - Grade5(purple): 0.0000
+  - Grade6(red): 0.0201
+
+[Overall] PSNR=48.65, SSIM=0.9951, mIoU_all=0.2076, mIoU_fg=0.0758
+  - Background(white): 0.9987
+  - Grade1(orange): 0.1848
+  - Grade2(green): 0.2209
+  - Grade3(darkgreen): 0.0000
+  - Grade4(skyblue): 0.0361
+  - Grade5(purple): 0.0000
+  - Grade6(red): 0.0127
+
+[WhiteTest] PSNR=52.11, SSIM=0.9893, IoU_bin=0.0000, IoU_color=0.0000, mIoU_all=0.1424, mIoU_fg=0.0000
+  - Background(white): 0.9968
+  - Grade1(orange): 0.0000
+  - Grade2(green): 0.0000
+  - Grade3(darkgreen): 0.0000
+  - Grade4(skyblue): 0.0000
+  - Grade5(purple): 0.0000
+  - Grade6(red): 0.0000
+
+[Overall] PSNR=52.11, SSIM=0.9893, mIoU_all=0.1424, mIoU_fg=0.0000
+  - Background(white): 0.9968
   - Grade1(orange): 0.0000
   - Grade2(green): 0.0000
   - Grade3(darkgreen): 0.0000
@@ -1328,17 +1472,35 @@
 
 
 === Epoch 170 ===
-[Case1] PSNR=26.14, SSIM=0.9909, IoU_bin=0.1045, IoU_color=0.0162, mIoU_all=0.1453, mIoU_fg=0.0033
-  - Background(white): 0.9977
+[Case1] PSNR=31.08, SSIM=0.9922, IoU_bin=0.0240, IoU_color=0.0000, mIoU_all=0.1425, mIoU_fg=0.0000
+  - Background(white): 0.9978
   - Grade1(orange): 0.0000
-  - Grade2(green): 0.0197
+  - Grade2(green): 0.0000
   - Grade3(darkgreen): 0.0000
   - Grade4(skyblue): 0.0000
   - Grade5(purple): 0.0000
   - Grade6(red): 0.0000
 
-[Case3] PSNR=17.67, SSIM=0.9752, IoU_bin=0.0138, IoU_color=0.0000, mIoU_all=0.1404, mIoU_fg=0.0000
+[Case3] PSNR=28.06, SSIM=0.9817, IoU_bin=0.0000, IoU_color=0.0000, mIoU_all=0.1410, mIoU_fg=0.0000
+  - Background(white): 0.9870
+  - Grade1(orange): 0.0000
+  - Grade2(green): 0.0000
+  - Grade3(darkgreen): 0.0000
+  - Grade4(skyblue): 0.0000
+  - Grade5(purple): 0.0000
+  - Grade6(red): 0.0000
+
+[Case4] PSNR=18.47, SSIM=0.9230, IoU_bin=0.4123, IoU_color=0.0706, mIoU_all=0.1570, mIoU_fg=0.0194
   - Background(white): 0.9829
+  - Grade1(orange): 0.0045
+  - Grade2(green): 0.1058
+  - Grade3(darkgreen): 0.0000
+  - Grade4(skyblue): 0.0058
+  - Grade5(purple): 0.0000
+  - Grade6(red): 0.0000
+
+[Case2] PSNR=23.65, SSIM=0.9823, IoU_bin=0.1625, IoU_color=0.0000, mIoU_all=0.1414, mIoU_fg=0.0000
+  - Background(white): 0.9897
   - Grade1(orange): 0.0000
   - Grade2(green): 0.0000
   - Grade3(darkgreen): 0.0000
@@ -1346,53 +1508,26 @@
   - Grade5(purple): 0.0000
   - Grade6(red): 0.0000
 
-[Case4] PSNR=18.02, SSIM=0.9234, IoU_bin=0.4406, IoU_color=0.0972, mIoU_all=0.1695, mIoU_fg=0.0342
-  - Background(white): 0.9816
-  - Grade1(orange): 0.0513
-  - Grade2(green): 0.1223
+[Overall] PSNR=24.76, SSIM=0.9740, mIoU_all=0.1441, mIoU_fg=0.0032
+  - Background(white): 0.9895
+  - Grade1(orange): 0.0008
+  - Grade2(green): 0.0176
   - Grade3(darkgreen): 0.0000
-  - Grade4(skyblue): 0.0103
-  - Grade5(purple): 0.0000
-  - Grade6(red): 0.0212
-
-[Case2] PSNR=23.68, SSIM=0.9752, IoU_bin=0.3168, IoU_color=0.0020, mIoU_all=0.1428, mIoU_fg=0.0018
-  - Background(white): 0.9891
-  - Grade1(orange): 0.0000
-  - Grade2(green): 0.0107
-  - Grade3(darkgreen): 0.0000
-  - Grade4(skyblue): 0.0000
+  - Grade4(skyblue): 0.0010
   - Grade5(purple): 0.0000
   - Grade6(red): 0.0000
 
-[Overall] PSNR=22.15, SSIM=0.9692, mIoU_all=0.1473, mIoU_fg=0.0071
-  - Background(white): 0.9882
-  - Grade1(orange): 0.0085
-  - Grade2(green): 0.0290
+[Orig] PSNR=32.04, SSIM=0.9918, IoU_bin=0.4084, IoU_color=0.3711, mIoU_all=0.2435, mIoU_fg=0.1179
+  - Background(white): 0.9976
+  - Grade1(orange): 0.3021
+  - Grade2(green): 0.3370
   - Grade3(darkgreen): 0.0000
-  - Grade4(skyblue): 0.0017
+  - Grade4(skyblue): 0.0452
   - Grade5(purple): 0.0000
-  - Grade6(red): 0.0035
+  - Grade6(red): 0.0228
 
-[Orig] PSNR=33.82, SSIM=0.9931, IoU_bin=0.4876, IoU_color=0.4465, mIoU_all=0.2589, mIoU_fg=0.1356
-  - Background(white): 0.9985
-  - Grade1(orange): 0.3516
-  - Grade2(green): 0.3925
-  - Grade3(darkgreen): 0.0000
-  - Grade4(skyblue): 0.0421
-  - Grade5(purple): 0.0000
-  - Grade6(red): 0.0277
-
-[Overall] PSNR=33.82, SSIM=0.9931, mIoU_all=0.2589, mIoU_fg=0.1356
-  - Background(white): 0.9985
-  - Grade1(orange): 0.3516
-  - Grade2(green): 0.3925
-  - Grade3(darkgreen): 0.0000
-  - Grade4(skyblue): 0.0421
-  - Grade5(purple): 0.0000
-  - Grade6(red): 0.0277
-
-[WhiteTest] PSNR=30.93, SSIM=0.9706, IoU_bin=0.0000, IoU_color=0.0000, mIoU_all=0.1415, mIoU_fg=0.0000
-  - Background(white): 0.9902
+[WhiteTrain] PSNR=91.52, SSIM=1.0000, IoU_bin=0.0000, IoU_color=0.0000, mIoU_all=0.1429, mIoU_fg=0.0000
+  - Background(white): 1.0000
   - Grade1(orange): 0.0000
   - Grade2(green): 0.0000
   - Grade3(darkgreen): 0.0000
@@ -1400,8 +1535,26 @@
   - Grade5(purple): 0.0000
   - Grade6(red): 0.0000
 
-[Overall] PSNR=30.93, SSIM=0.9706, mIoU_all=0.1415, mIoU_fg=0.0000
-  - Background(white): 0.9902
+[Overall] PSNR=53.86, SSIM=0.9948, mIoU_all=0.2066, mIoU_fg=0.0746
+  - Background(white): 0.9985
+  - Grade1(orange): 0.1913
+  - Grade2(green): 0.2134
+  - Grade3(darkgreen): 0.0000
+  - Grade4(skyblue): 0.0286
+  - Grade5(purple): 0.0000
+  - Grade6(red): 0.0144
+
+[WhiteTest] PSNR=53.80, SSIM=0.9888, IoU_bin=0.0000, IoU_color=0.0000, mIoU_all=0.1424, mIoU_fg=0.0000
+  - Background(white): 0.9969
+  - Grade1(orange): 0.0000
+  - Grade2(green): 0.0000
+  - Grade3(darkgreen): 0.0000
+  - Grade4(skyblue): 0.0000
+  - Grade5(purple): 0.0000
+  - Grade6(red): 0.0000
+
+[Overall] PSNR=53.80, SSIM=0.9888, mIoU_all=0.1424, mIoU_fg=0.0000
+  - Background(white): 0.9969
   - Grade1(orange): 0.0000
   - Grade2(green): 0.0000
   - Grade3(darkgreen): 0.0000
@@ -1411,17 +1564,80 @@
 
 
 === Epoch 180 ===
-[Case1] PSNR=29.21, SSIM=0.9927, IoU_bin=0.0909, IoU_color=0.0154, mIoU_all=0.1452, mIoU_fg=0.0031
+[Case1] PSNR=31.00, SSIM=0.9924, IoU_bin=0.0571, IoU_color=0.0000, mIoU_all=0.1425, mIoU_fg=0.0000
+  - Background(white): 0.9978
+  - Grade1(orange): 0.0000
+  - Grade2(green): 0.0000
+  - Grade3(darkgreen): 0.0000
+  - Grade4(skyblue): 0.0000
+  - Grade5(purple): 0.0000
+  - Grade6(red): 0.0000
+
+[Case3] PSNR=28.06, SSIM=0.9817, IoU_bin=0.0000, IoU_color=0.0000, mIoU_all=0.1410, mIoU_fg=0.0000
+  - Background(white): 0.9870
+  - Grade1(orange): 0.0000
+  - Grade2(green): 0.0000
+  - Grade3(darkgreen): 0.0000
+  - Grade4(skyblue): 0.0000
+  - Grade5(purple): 0.0000
+  - Grade6(red): 0.0000
+
+[Case4] PSNR=18.72, SSIM=0.9281, IoU_bin=0.4046, IoU_color=0.0563, mIoU_all=0.1570, mIoU_fg=0.0192
+  - Background(white): 0.9835
+  - Grade1(orange): 0.0030
+  - Grade2(green): 0.0832
+  - Grade3(darkgreen): 0.0000
+  - Grade4(skyblue): 0.0042
+  - Grade5(purple): 0.0000
+  - Grade6(red): 0.0250
+
+[Case2] PSNR=23.61, SSIM=0.9805, IoU_bin=0.2277, IoU_color=0.0003, mIoU_all=0.1414, mIoU_fg=0.0001
+  - Background(white): 0.9895
+  - Grade1(orange): 0.0004
+  - Grade2(green): 0.0000
+  - Grade3(darkgreen): 0.0000
+  - Grade4(skyblue): 0.0000
+  - Grade5(purple): 0.0000
+  - Grade6(red): 0.0000
+
+[Overall] PSNR=24.77, SSIM=0.9740, mIoU_all=0.1441, mIoU_fg=0.0032
+  - Background(white): 0.9895
+  - Grade1(orange): 0.0007
+  - Grade2(green): 0.0139
+  - Grade3(darkgreen): 0.0000
+  - Grade4(skyblue): 0.0007
+  - Grade5(purple): 0.0000
+  - Grade6(red): 0.0042
+
+[WhiteTrain] PSNR=91.44, SSIM=1.0000, IoU_bin=0.0000, IoU_color=0.0000, mIoU_all=0.1429, mIoU_fg=0.0000
+  - Background(white): 1.0000
+  - Grade1(orange): 0.0000
+  - Grade2(green): 0.0000
+  - Grade3(darkgreen): 0.0000
+  - Grade4(skyblue): 0.0000
+  - Grade5(purple): 0.0000
+  - Grade6(red): 0.0000
+
+[Orig] PSNR=32.36, SSIM=0.9916, IoU_bin=0.4303, IoU_color=0.3898, mIoU_all=0.2542, mIoU_fg=0.1302
   - Background(white): 0.9980
-  - Grade1(orange): 0.0000
-  - Grade2(green): 0.0186
+  - Grade1(orange): 0.3132
+  - Grade2(green): 0.3741
   - Grade3(darkgreen): 0.0000
-  - Grade4(skyblue): 0.0000
+  - Grade4(skyblue): 0.0631
   - Grade5(purple): 0.0000
-  - Grade6(red): 0.0000
+  - Grade6(red): 0.0307
 
-[Case3] PSNR=17.28, SSIM=0.9747, IoU_bin=0.0000, IoU_color=0.0000, mIoU_all=0.1403, mIoU_fg=0.0000
-  - Background(white): 0.9822
+[Overall] PSNR=54.03, SSIM=0.9947, mIoU_all=0.2133, mIoU_fg=0.0824
+  - Background(white): 0.9987
+  - Grade1(orange): 0.1983
+  - Grade2(green): 0.2369
+  - Grade3(darkgreen): 0.0000
+  - Grade4(skyblue): 0.0399
+  - Grade5(purple): 0.0000
+  - Grade6(red): 0.0194
+
+[WhiteTest] PSNR=52.71, SSIM=0.9881, IoU_bin=0.0000, IoU_color=0.0000, mIoU_all=0.1424, mIoU_fg=0.0000
+  - Background(white): 0.9967
   - Grade1(orange): 0.0000
   - Grade2(green): 0.0000
   - Grade3(darkgreen): 0.0000
@@ -1429,62 +1645,8 @@
   - Grade5(purple): 0.0000
   - Grade6(red): 0.0000
 
-[Case4] PSNR=18.46, SSIM=0.9258, IoU_bin=0.4103, IoU_color=0.0720, mIoU_all=0.1600, mIoU_fg=0.0229
-  - Background(white): 0.9824
-  - Grade1(orange): 0.0251
-  - Grade2(green): 0.0987
-  - Grade3(darkgreen): 0.0000
-  - Grade4(skyblue): 0.0135
-  - Grade5(purple): 0.0000
-  - Grade6(red): 0.0000
-
-[Case2] PSNR=23.51, SSIM=0.9774, IoU_bin=0.2829, IoU_color=0.0002, mIoU_all=0.1419, mIoU_fg=0.0007
-  - Background(white): 0.9890
-  - Grade1(orange): 0.0000
-  - Grade2(green): 0.0040
-  - Grade3(darkgreen): 0.0000
-  - Grade4(skyblue): 0.0000
-  - Grade5(purple): 0.0000
-  - Grade6(red): 0.0000
-
-[Overall] PSNR=22.58, SSIM=0.9709, mIoU_all=0.1452, mIoU_fg=0.0047
-  - Background(white): 0.9883
-  - Grade1(orange): 0.0042
-  - Grade2(green): 0.0216
-  - Grade3(darkgreen): 0.0000
-  - Grade4(skyblue): 0.0023
-  - Grade5(purple): 0.0000
-  - Grade6(red): 0.0000
-
-[Orig] PSNR=35.11, SSIM=0.9943, IoU_bin=0.5063, IoU_color=0.4500, mIoU_all=0.2638, mIoU_fg=0.1413
-  - Background(white): 0.9987
-  - Grade1(orange): 0.3848
-  - Grade2(green): 0.3727
-  - Grade3(darkgreen): 0.0000
-  - Grade4(skyblue): 0.0540
-  - Grade5(purple): 0.0000
-  - Grade6(red): 0.0361
-
-[Overall] PSNR=35.11, SSIM=0.9943, mIoU_all=0.2638, mIoU_fg=0.1413
-  - Background(white): 0.9987
-  - Grade1(orange): 0.3848
-  - Grade2(green): 0.3727
-  - Grade3(darkgreen): 0.0000
-  - Grade4(skyblue): 0.0540
-  - Grade5(purple): 0.0000
-  - Grade6(red): 0.0361
-
-[WhiteTest] PSNR=30.57, SSIM=0.9716, IoU_bin=0.0000, IoU_color=0.0000, mIoU_all=0.1414, mIoU_fg=0.0000
-  - Background(white): 0.9896
-  - Grade1(orange): 0.0000
-  - Grade2(green): 0.0000
-  - Grade3(darkgreen): 0.0000
-  - Grade4(skyblue): 0.0000
-  - Grade5(purple): 0.0000
-  - Grade6(red): 0.0000
-
-[Overall] PSNR=30.57, SSIM=0.9716, mIoU_all=0.1414, mIoU_fg=0.0000
-  - Background(white): 0.9896
+[Overall] PSNR=52.71, SSIM=0.9881, mIoU_all=0.1424, mIoU_fg=0.0000
+  - Background(white): 0.9967
   - Grade1(orange): 0.0000
   - Grade2(green): 0.0000
   - Grade3(darkgreen): 0.0000
@@ -1494,71 +1656,8 @@
 
 
 === Epoch 190 ===
-[Case1] PSNR=24.77, SSIM=0.9905, IoU_bin=0.0903, IoU_color=0.0186, mIoU_all=0.1457, mIoU_fg=0.0037
-  - Background(white): 0.9974
-  - Grade1(orange): 0.0000
-  - Grade2(green): 0.0223
-  - Grade3(darkgreen): 0.0000
-  - Grade4(skyblue): 0.0000
-  - Grade5(purple): 0.0000
-  - Grade6(red): 0.0000
-
-[Case3] PSNR=16.81, SSIM=0.9728, IoU_bin=0.0619, IoU_color=0.0018, mIoU_all=0.1424, mIoU_fg=0.0026
-  - Background(white): 0.9812
-  - Grade1(orange): 0.0000
-  - Grade2(green): 0.0157
-  - Grade3(darkgreen): 0.0000
-  - Grade4(skyblue): 0.0000
-  - Grade5(purple): 0.0000
-  - Grade6(red): 0.0000
-
-[Case4] PSNR=17.93, SSIM=0.9216, IoU_bin=0.4303, IoU_color=0.0910, mIoU_all=0.1647, mIoU_fg=0.0285
-  - Background(white): 0.9818
-  - Grade1(orange): 0.0417
-  - Grade2(green): 0.1156
-  - Grade3(darkgreen): 0.0000
-  - Grade4(skyblue): 0.0136
-  - Grade5(purple): 0.0000
-  - Grade6(red): 0.0000
-
-[Case2] PSNR=23.49, SSIM=0.9777, IoU_bin=0.3222, IoU_color=0.0001, mIoU_all=0.1416, mIoU_fg=0.0004
-  - Background(white): 0.9890
-  - Grade1(orange): 0.0000
-  - Grade2(green): 0.0022
-  - Grade3(darkgreen): 0.0000
-  - Grade4(skyblue): 0.0000
-  - Grade5(purple): 0.0000
-  - Grade6(red): 0.0000
-
-[Overall] PSNR=21.66, SSIM=0.9697, mIoU_all=0.1463, mIoU_fg=0.0060
-  - Background(white): 0.9879
-  - Grade1(orange): 0.0069
-  - Grade2(green): 0.0267
-  - Grade3(darkgreen): 0.0000
-  - Grade4(skyblue): 0.0023
-  - Grade5(purple): 0.0000
-  - Grade6(red): 0.0000
-
-[Orig] PSNR=32.41, SSIM=0.9930, IoU_bin=0.4634, IoU_color=0.4242, mIoU_all=0.2565, mIoU_fg=0.1328
-  - Background(white): 0.9984
-  - Grade1(orange): 0.3520
-  - Grade2(green): 0.3711
-  - Grade3(darkgreen): 0.0000
-  - Grade4(skyblue): 0.0412
-  - Grade5(purple): 0.0000
-  - Grade6(red): 0.0327
-
-[Overall] PSNR=32.41, SSIM=0.9930, mIoU_all=0.2565, mIoU_fg=0.1328
-  - Background(white): 0.9984
-  - Grade1(orange): 0.3520
-  - Grade2(green): 0.3711
-  - Grade3(darkgreen): 0.0000
-  - Grade4(skyblue): 0.0412
-  - Grade5(purple): 0.0000
-  - Grade6(red): 0.0327
-
-[WhiteTest] PSNR=29.17, SSIM=0.9715, IoU_bin=0.0000, IoU_color=0.0000, mIoU_all=0.1414, mIoU_fg=0.0000
-  - Background(white): 0.9900
+[Case1] PSNR=28.81, SSIM=0.9907, IoU_bin=0.0509, IoU_color=0.0000, mIoU_all=0.1425, mIoU_fg=0.0000
+  - Background(white): 0.9977
   - Grade1(orange): 0.0000
   - Grade2(green): 0.0000
   - Grade3(darkgreen): 0.0000
@@ -1566,8 +1665,80 @@
   - Grade5(purple): 0.0000
   - Grade6(red): 0.0000
 
-[Overall] PSNR=29.17, SSIM=0.9715, mIoU_all=0.1414, mIoU_fg=0.0000
-  - Background(white): 0.9900
+[Case3] PSNR=28.06, SSIM=0.9817, IoU_bin=0.0000, IoU_color=0.0000, mIoU_all=0.1410, mIoU_fg=0.0000
+  - Background(white): 0.9870
+  - Grade1(orange): 0.0000
+  - Grade2(green): 0.0000
+  - Grade3(darkgreen): 0.0000
+  - Grade4(skyblue): 0.0000
+  - Grade5(purple): 0.0000
+  - Grade6(red): 0.0000
+
+[Case4] PSNR=17.72, SSIM=0.8840, IoU_bin=0.4282, IoU_color=0.1015, mIoU_all=0.1670, mIoU_fg=0.0315
+  - Background(white): 0.9796
+  - Grade1(orange): 0.0047
+  - Grade2(green): 0.1735
+  - Grade3(darkgreen): 0.0000
+  - Grade4(skyblue): 0.0109
+  - Grade5(purple): 0.0000
+  - Grade6(red): 0.0000
+
+[Case2] PSNR=23.55, SSIM=0.9814, IoU_bin=0.0762, IoU_color=0.0000, mIoU_all=0.1414, mIoU_fg=0.0000
+  - Background(white): 0.9896
+  - Grade1(orange): 0.0000
+  - Grade2(green): 0.0000
+  - Grade3(darkgreen): 0.0000
+  - Grade4(skyblue): 0.0000
+  - Grade5(purple): 0.0000
+  - Grade6(red): 0.0000
+
+[Overall] PSNR=24.20, SSIM=0.9668, mIoU_all=0.1458, mIoU_fg=0.0053
+  - Background(white): 0.9889
+  - Grade1(orange): 0.0008
+  - Grade2(green): 0.0289
+  - Grade3(darkgreen): 0.0000
+  - Grade4(skyblue): 0.0018
+  - Grade5(purple): 0.0000
+  - Grade6(red): 0.0000
+
+[Orig] PSNR=31.56, SSIM=0.9865, IoU_bin=0.2764, IoU_color=0.2937, mIoU_all=0.2272, mIoU_fg=0.0988
+  - Background(white): 0.9974
+  - Grade1(orange): 0.2106
+  - Grade2(green): 0.3204
+  - Grade3(darkgreen): 0.0000
+  - Grade4(skyblue): 0.0490
+  - Grade5(purple): 0.0000
+  - Grade6(red): 0.0129
+
+[WhiteTrain] PSNR=86.46, SSIM=0.9998, IoU_bin=0.0000, IoU_color=0.0000, mIoU_all=0.1428, mIoU_fg=0.0000
+  - Background(white): 0.9998
+  - Grade1(orange): 0.0000
+  - Grade2(green): 0.0000
+  - Grade3(darkgreen): 0.0000
+  - Grade4(skyblue): 0.0000
+  - Grade5(purple): 0.0000
+  - Grade6(red): 0.0000
+
+[Overall] PSNR=51.70, SSIM=0.9914, mIoU_all=0.1962, mIoU_fg=0.0626
+  - Background(white): 0.9983
+  - Grade1(orange): 0.1333
+  - Grade2(green): 0.2029
+  - Grade3(darkgreen): 0.0000
+  - Grade4(skyblue): 0.0310
+  - Grade5(purple): 0.0000
+  - Grade6(red): 0.0082
+
+[WhiteTest] PSNR=50.61, SSIM=0.9794, IoU_bin=0.0000, IoU_color=0.0000, mIoU_all=0.1423, mIoU_fg=0.0000
+  - Background(white): 0.9960
+  - Grade1(orange): 0.0000
+  - Grade2(green): 0.0000
+  - Grade3(darkgreen): 0.0000
+  - Grade4(skyblue): 0.0000
+  - Grade5(purple): 0.0000
+  - Grade6(red): 0.0000
+
+[Overall] PSNR=50.61, SSIM=0.9794, mIoU_all=0.1423, mIoU_fg=0.0000
+  - Background(white): 0.9960
   - Grade1(orange): 0.0000
   - Grade2(green): 0.0000
   - Grade3(darkgreen): 0.0000
@@ -1577,17 +1748,8 @@
 
 
 === Epoch 200 ===
-[Case1] PSNR=26.46, SSIM=0.9877, IoU_bin=0.1527, IoU_color=0.0177, mIoU_all=0.1456, mIoU_fg=0.0036
-  - Background(white): 0.9976
-  - Grade1(orange): 0.0000
-  - Grade2(green): 0.0217
-  - Grade3(darkgreen): 0.0000
-  - Grade4(skyblue): 0.0000
-  - Grade5(purple): 0.0000
-  - Grade6(red): 0.0000
-
-[Case3] PSNR=21.84, SSIM=0.9758, IoU_bin=0.0160, IoU_color=0.0000, mIoU_all=0.1407, mIoU_fg=0.0000
-  - Background(white): 0.9852
+[Case1] PSNR=27.36, SSIM=0.9914, IoU_bin=0.0653, IoU_color=0.0000, mIoU_all=0.1425, mIoU_fg=0.0000
+  - Background(white): 0.9978
   - Grade1(orange): 0.0000
   - Grade2(green): 0.0000
   - Grade3(darkgreen): 0.0000
@@ -1595,53 +1757,8 @@
   - Grade5(purple): 0.0000
   - Grade6(red): 0.0000
 
-[Case4] PSNR=16.43, SSIM=0.8890, IoU_bin=0.4674, IoU_color=0.1190, mIoU_all=0.1683, mIoU_fg=0.0336
-  - Background(white): 0.9763
-  - Grade1(orange): 0.0257
-  - Grade2(green): 0.1684
-  - Grade3(darkgreen): 0.0000
-  - Grade4(skyblue): 0.0074
-  - Grade5(purple): 0.0000
-  - Grade6(red): 0.0000
-
-[Case2] PSNR=23.12, SSIM=0.9660, IoU_bin=0.2502, IoU_color=0.0007, mIoU_all=0.1419, mIoU_fg=0.0008
-  - Background(white): 0.9884
-  - Grade1(orange): 0.0003
-  - Grade2(green): 0.0044
-  - Grade3(darkgreen): 0.0000
-  - Grade4(skyblue): 0.0000
-  - Grade5(purple): 0.0000
-  - Grade6(red): 0.0000
-
-[Overall] PSNR=22.35, SSIM=0.9584, mIoU_all=0.1467, mIoU_fg=0.0066
-  - Background(white): 0.9874
-  - Grade1(orange): 0.0044
-  - Grade2(green): 0.0339
-  - Grade3(darkgreen): 0.0000
-  - Grade4(skyblue): 0.0012
-  - Grade5(purple): 0.0000
-  - Grade6(red): 0.0000
-
-[Orig] PSNR=31.39, SSIM=0.9856, IoU_bin=0.3250, IoU_color=0.3237, mIoU_all=0.2313, mIoU_fg=0.1036
-  - Background(white): 0.9976
-  - Grade1(orange): 0.2523
-  - Grade2(green): 0.3155
-  - Grade3(darkgreen): 0.0000
-  - Grade4(skyblue): 0.0292
-  - Grade5(purple): 0.0000
-  - Grade6(red): 0.0248
-
-[Overall] PSNR=31.39, SSIM=0.9856, mIoU_all=0.2313, mIoU_fg=0.1036
-  - Background(white): 0.9976
-  - Grade1(orange): 0.2523
-  - Grade2(green): 0.3155
-  - Grade3(darkgreen): 0.0000
-  - Grade4(skyblue): 0.0292
-  - Grade5(purple): 0.0000
-  - Grade6(red): 0.0248
-
-[WhiteTest] PSNR=30.80, SSIM=0.9645, IoU_bin=0.0000, IoU_color=0.0000, mIoU_all=0.1412, mIoU_fg=0.0000
-  - Background(white): 0.9887
+[Case3] PSNR=28.06, SSIM=0.9817, IoU_bin=0.0000, IoU_color=0.0000, mIoU_all=0.1410, mIoU_fg=0.0000
+  - Background(white): 0.9870
   - Grade1(orange): 0.0000
   - Grade2(green): 0.0000
   - Grade3(darkgreen): 0.0000
@@ -1649,8 +1766,71 @@
   - Grade5(purple): 0.0000
   - Grade6(red): 0.0000
 
-[Overall] PSNR=30.80, SSIM=0.9645, mIoU_all=0.1412, mIoU_fg=0.0000
-  - Background(white): 0.9887
+[Case4] PSNR=18.73, SSIM=0.9268, IoU_bin=0.4192, IoU_color=0.0723, mIoU_all=0.1581, mIoU_fg=0.0206
+  - Background(white): 0.9829
+  - Grade1(orange): 0.0020
+  - Grade2(green): 0.1175
+  - Grade3(darkgreen): 0.0000
+  - Grade4(skyblue): 0.0043
+  - Grade5(purple): 0.0000
+  - Grade6(red): 0.0000
+
+[Case2] PSNR=23.61, SSIM=0.9818, IoU_bin=0.1803, IoU_color=0.0001, mIoU_all=0.1414, mIoU_fg=0.0000
+  - Background(white): 0.9896
+  - Grade1(orange): 0.0001
+  - Grade2(green): 0.0000
+  - Grade3(darkgreen): 0.0000
+  - Grade4(skyblue): 0.0000
+  - Grade5(purple): 0.0000
+  - Grade6(red): 0.0000
+
+[Overall] PSNR=24.16, SSIM=0.9742, mIoU_all=0.1443, mIoU_fg=0.0034
+  - Background(white): 0.9894
+  - Grade1(orange): 0.0004
+  - Grade2(green): 0.0196
+  - Grade3(darkgreen): 0.0000
+  - Grade4(skyblue): 0.0007
+  - Grade5(purple): 0.0000
+  - Grade6(red): 0.0000
+
+[WhiteTrain] PSNR=66.58, SSIM=0.9985, IoU_bin=0.0000, IoU_color=0.0000, mIoU_all=0.1428, mIoU_fg=0.0000
+  - Background(white): 0.9995
+  - Grade1(orange): 0.0000
+  - Grade2(green): 0.0000
+  - Grade3(darkgreen): 0.0000
+  - Grade4(skyblue): 0.0000
+  - Grade5(purple): 0.0000
+  - Grade6(red): 0.0000
+
+[Orig] PSNR=33.07, SSIM=0.9939, IoU_bin=0.4168, IoU_color=0.3726, mIoU_all=0.2503, mIoU_fg=0.1256
+  - Background(white): 0.9983
+  - Grade1(orange): 0.3121
+  - Grade2(green): 0.3560
+  - Grade3(darkgreen): 0.0000
+  - Grade4(skyblue): 0.0565
+  - Grade5(purple): 0.0000
+  - Grade6(red): 0.0290
+
+[Overall] PSNR=45.36, SSIM=0.9956, mIoU_all=0.2108, mIoU_fg=0.0795
+  - Background(white): 0.9987
+  - Grade1(orange): 0.1976
+  - Grade2(green): 0.2254
+  - Grade3(darkgreen): 0.0000
+  - Grade4(skyblue): 0.0358
+  - Grade5(purple): 0.0000
+  - Grade6(red): 0.0184
+
+[WhiteTest] PSNR=49.43, SSIM=0.9887, IoU_bin=0.0000, IoU_color=0.0000, mIoU_all=0.1424, mIoU_fg=0.0000
+  - Background(white): 0.9968
+  - Grade1(orange): 0.0000
+  - Grade2(green): 0.0000
+  - Grade3(darkgreen): 0.0000
+  - Grade4(skyblue): 0.0000
+  - Grade5(purple): 0.0000
+  - Grade6(red): 0.0000
+
+[Overall] PSNR=49.43, SSIM=0.9887, mIoU_all=0.1424, mIoU_fg=0.0000
+  - Background(white): 0.9968
   - Grade1(orange): 0.0000
   - Grade2(green): 0.0000
   - Grade3(darkgreen): 0.0000
