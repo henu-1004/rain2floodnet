@@ -23,7 +23,7 @@
 - WGAN-GP Loss
 - White Test 기반 일반화 평가
 
-- [Rain2FloodNet Paper](./docs/정보과학회_Rain2FloodNet_실시간 도시 침수흔적도 예측을 위한 조건부 생성 모델.pdf)
+- [논문 PDF 보기](./docs/Rain2FloodNet_paper.pdf)
 
 ---
 
