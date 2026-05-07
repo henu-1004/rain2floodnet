@@ -1,0 +1,11 @@
+Best PSNR:    25.72 at epoch 50
+Best SSIM:    0.9759 at epoch 50
+Best mIoU_all:0.1518 at epoch 190
+Best fg-mIoU: 0.0124 at epoch 190
+Best IoU_Background: 0.9729 at epoch 180
+Best IoU_Grade1: 0.1662 at epoch 180
+Best IoU_Grade2: 0.0155 at epoch 30
+Best IoU_Grade3: 0.0000 at epoch 10
+Best IoU_Grade4: 0.0119 at epoch 130
+Best IoU_Grade5: 0.0000 at epoch 10
+Best IoU_Grade6: 0.0151 at epoch 140
