@@ -41,6 +41,14 @@
 
 ### ✅ Baseline: Conditional GAN (cGAN)
 
+<p align="center">
+  <img src="./images/cGan.png" width="500">
+</p>
+
+<p align="center">
+  <em>Baseline cGAN model architecture</em>
+</p>
+
 비교 모델로 기본 **Conditional GAN(cGAN)** 구조를 구현했습니다.
 
 Generator는 다음 정보를 입력받아 침수흔적도 이미지를 생성합니다.
@@ -59,14 +67,6 @@ Discriminator는 다음 정보를 함께 입력받아 이미지의 진위를 판
 
 - WGAN-GP Loss
 - L1 Reconstruction Loss
-
-<p align="center">
-  <img src="./images/cGan.png" width="500">
-</p>
-
-<p align="center">
-  <em>Baseline cGAN model architecture</em>
-</p>
 
 ---
 
